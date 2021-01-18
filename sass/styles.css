@@ -29,9 +29,9 @@ body {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(min-content, 1fr))[8];
-      grid-template-columns: repeat(8, minmax(-webkit-min-content, 1fr));
-      grid-template-columns: repeat(8, minmax(min-content, 1fr));
+  -ms-grid-columns: (minmax(min-content, 1fr))[6];
+      grid-template-columns: repeat(6, minmax(-webkit-min-content, 1fr));
+      grid-template-columns: repeat(6, minmax(min-content, 1fr));
   -ms-grid-rows: (minmax(6rem, 30rem))[5];
       grid-template-rows: repeat(5, minmax(6rem, 30rem));
   gap: 2rem;
@@ -54,8 +54,8 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (minmax(6rem, 1fr))[auto-fit];
-      grid-template-rows: repeat(auto-fit, minmax(6rem, 1fr));
+  -ms-grid-rows: (minmax(0.6rem, 1fr))[auto-fit];
+      grid-template-rows: repeat(auto-fit, minmax(0.6rem, 1fr));
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -69,6 +69,8 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
 }
 
 .card-1 h4 {
@@ -78,6 +80,7 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
+  margin-left: -7rem;
 }
 
 .card-1 h1 {
@@ -164,5 +167,19 @@ body {
 .card-10 {
   background-color: #f3f4f6;
   grid-column: 1 / -1;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-column: 1 / -1;
+}
+
+.footer div {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */
