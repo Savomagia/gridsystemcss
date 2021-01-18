@@ -1,8 +1,7 @@
 .card-1 {
     background-color: #C0E5FE;
     grid-column: 1 /span 4;
-    overflow: hidden;
-    
+     
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -11,9 +10,7 @@
     
     align-items: center;
     justify-items: center;
-    align-content: center;
-    justify-content: space-between;
-
+    
     & svg {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -40,13 +37,12 @@
     & video {
         grid-column: 2 / -1;
         justify-self: end;
-        // object-fit: cover;
     }
 
-    button {
+    a {
         grid-column: 1 / 2;
         grid-row: 5 / 6;
-        height: 2rem;
+        
         
     }
 }

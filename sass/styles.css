@@ -24,38 +24,25 @@ body {
   color: #989898;
   font-weight: 300;
   line-height: 1.6;
-  margin: 6rem;
 }
 
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
-  -ms-grid-rows: (30rem)[5];
-      grid-template-rows: repeat(5, 30rem);
+  -ms-grid-columns: (minmax(min-content, 1fr))[8];
+      grid-template-columns: repeat(8, minmax(-webkit-min-content, 1fr));
+      grid-template-columns: repeat(8, minmax(min-content, 1fr));
+  -ms-grid-rows: (minmax(6rem, 30rem))[5];
+      grid-template-rows: repeat(5, minmax(6rem, 30rem));
   gap: 2rem;
+  margin: 6rem;
 }
 
 .card {
   display: -ms-grid;
   display: grid;
   border-radius: 1.6rem;
-}
-
-.btn-apple {
-  border-radius: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #989898;
-  font-weight: 300;
-  line-height: 1.6;
-  border: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  overflow: hidden;
 }
 
 .card-1 {
@@ -63,7 +50,6 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1 /span 4;
-  overflow: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -74,11 +60,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .card-1 svg {
@@ -123,14 +104,13 @@ body {
       justify-self: end;
 }
 
-.card-1 button {
+.card-1 a {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5 / 6;
-  height: 2rem;
 }
 
 .card-2 {
