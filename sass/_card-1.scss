@@ -1,5 +1,53 @@
 .card-1 {
     background-color: #C0E5FE;
-    grid-column: 1 /span 4; 
+    grid-column: 1 /span 4;
+    overflow: hidden;
     
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(6rem, 1fr));
+    // grid-template-rows: repeat(5 , minmax(min-content, max-content));
+    
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    & svg {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    & h4 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+       
+    }
+
+    & h1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        
+    }
+    
+    & p {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        
+    }
+
+    & video {
+        grid-column: 2 / -1;
+        justify-self: end;
+        // object-fit: cover;
+    }
+
+    button {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        height: 2rem;
+        
+    }
 }
+
