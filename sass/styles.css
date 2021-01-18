@@ -45,6 +45,31 @@ body {
   overflow: hidden;
 }
 
+h1,
+h2,
+h4 {
+  color: #111111;
+}
+
+h1 {
+  font-size: 5.3rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  width: 65%;
+}
+
 .card-1 {
   background-color: #C0E5FE;
   -ms-grid-column: 1;
@@ -69,8 +94,8 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  -webkit-transform: translateY(2rem);
-          transform: translateY(2rem);
+  -webkit-transform: translateY(2.2rem);
+          transform: translateY(2.2rem);
 }
 
 .card-1 h4 {
@@ -80,7 +105,7 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  margin-left: -7rem;
+  margin-left: -5rem;
 }
 
 .card-1 h1 {
@@ -181,5 +206,9 @@ body {
 
 .footer div {
   margin-top: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
