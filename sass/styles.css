@@ -247,6 +247,22 @@ p {
 .card-7 {
   background-color: #FEFAF0;
   grid-column: 3 / -1;
+  justify-items: center;
+}
+
+.card-7 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-7 h2 {
+  padding: 0 5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.card-7 p {
+  text-align: center;
 }
 
 .card-8 {

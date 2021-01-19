@@ -1,4 +1,22 @@
 .card-7 {
     background-color: #FEFAF0;
     grid-column: 3 / -1; 
+
+    justify-items: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    h2 {
+        padding: 0 5rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;  
+    }
 }
