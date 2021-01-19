@@ -2,4 +2,15 @@
     background-color: #BBF5D5;
     grid-column: 1 /span 2; 
 
+    img {
+        width: 90%;
+        height: auto;
+        margin: 3rem auto;
+    }
+
+    h2 {
+        padding: 0 5rem;
+        line-height: 1;
+        text-align: center;
+    }
 }
