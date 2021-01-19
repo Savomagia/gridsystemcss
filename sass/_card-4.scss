@@ -1,4 +1,11 @@
 .card-4 {
     background-color: #FFEACB;
     grid-column: 3 /span 2; 
+
+    align-items: center;
+    justify-items: center;
+
+    p {
+        text-align: center;
+    }
 }
