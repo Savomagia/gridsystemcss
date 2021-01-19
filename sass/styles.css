@@ -32,10 +32,10 @@ body {
   -ms-grid-columns: (minmax(min-content, 1fr))[6];
       grid-template-columns: repeat(6, minmax(-webkit-min-content, 1fr));
       grid-template-columns: repeat(6, minmax(min-content, 1fr));
-  -ms-grid-rows: (minmax(6rem, 30rem))[5];
-      grid-template-rows: repeat(5, minmax(6rem, 30rem));
-  gap: 2rem;
-  margin: 6rem;
+  -ms-grid-rows: (44rem)[5];
+      grid-template-rows: repeat(5, 44rem);
+  gap: 4rem;
+  margin: 6rem 25rem;
 }
 
 .card {
@@ -47,12 +47,19 @@ body {
 
 h1,
 h2,
-h4 {
+h4,
+a {
   color: #111111;
 }
 
+h1,
+h2 {
+  margin: 0 auto;
+}
+
 h1 {
-  font-size: 5.3rem;
+  font-size: 5.5rem;
+  line-height: 1;
 }
 
 h2 {
@@ -75,8 +82,6 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1 /span 4;
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: (minmax(0.6rem, 1fr))[auto-fit];
@@ -105,7 +110,7 @@ p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  margin-left: -5rem;
+  margin-left: -2.8rem;
 }
 
 .card-1 h1 {
@@ -115,6 +120,7 @@ p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
+  margin-left: 5.8rem;
 }
 
 .card-1 p {
@@ -130,6 +136,8 @@ p {
   grid-column: 2 / -1;
   -ms-grid-column-align: end;
       justify-self: end;
+  -webkit-transform: translateY(23rem);
+          transform: translateY(23rem);
 }
 
 .card-1 a {
@@ -143,7 +151,29 @@ p {
 
 .card-2 {
   background-color: rgba(142, 238, 185, 0.6);
-  grid-column: 5 / -1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5 / span 2;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.card-2 h2 {
+  padding: 0 5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.card-2 img {
+  width: 70%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 3rem auto;
 }
 
 .card-3 {
@@ -210,5 +240,12 @@ p {
 
 .footer a {
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 2rem;
+  font-size: 1.6rem;
+}
+
+.footer p {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

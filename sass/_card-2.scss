@@ -1,4 +1,20 @@
 .card-2 {
     background-color: rgba(142, 238, 185, 0.6);
-    grid-column: 5 / -1; 
+    grid-column: 5 / span 2; 
+    
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    
+    h2 {
+        padding: 0 5rem;
+        line-height: 1;
+        text-align: center;
+    }
+    img {
+        width: 70%;
+        height: auto;
+        object-fit: contain;
+        margin: 3rem auto;
+    }
 }

@@ -3,7 +3,7 @@
     grid-column: 1 /span 4;
      
 
-    display: grid;
+    // display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto-fit, minmax(.6rem, 1fr));
     // grid-template-rows: repeat(5 , minmax(min-content, max-content));
@@ -21,13 +21,14 @@
     & h4 {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        margin-left: -5rem;
+        margin-left: -2.8rem;
        
     }
 
     & h1 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+        margin-left: 5.8rem;
         
     }
     
@@ -40,6 +41,7 @@
     & video {
         grid-column: 2 / -1;
         justify-self: end;
+        transform: translateY(23rem);
     }
 
     a {
