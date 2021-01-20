@@ -13,7 +13,7 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 87.5em) {
   html {
     font-size: 50%;
   }
@@ -91,7 +91,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
+  justify-items: start;
+  padding-left: 4rem;
 }
 
 .card-1 svg {
@@ -112,7 +113,6 @@ p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  margin-left: -2.8rem;
 }
 
 .card-1 h1 {
@@ -122,7 +122,6 @@ p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
-  margin-left: 7.8rem;
 }
 
 .card-1 p {

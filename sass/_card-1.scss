@@ -2,34 +2,28 @@
     background-color: #C0E5FE;
     grid-column: 1 /span 4;
      
-
-    // display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto-fit, minmax(.6rem, 1fr));
-    // grid-template-rows: repeat(5 , minmax(min-content, max-content));
-    
+   
     align-items: center;
-    justify-items: center;
+    justify-items: start;
+
+    padding-left: 4rem;
     
     & svg {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        transform: translateY(2.2rem);
-        
+        transform: translateY(2.2rem);    
     }
 
     & h4 {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        margin-left: -2.8rem;
-       
     }
 
     & h1 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
-        margin-left: 7.8rem;
-        
     }
     
     & p {
@@ -47,8 +41,6 @@
     a {
         grid-column: 1 / 2;
         grid-row: 5 / 6;
-        
-        
     }
 }
 
