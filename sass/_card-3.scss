@@ -2,17 +2,21 @@
     background-color: rgba(255, 177, 175, 0.5);
     grid-column: 1 /span 2; 
 
+    grid-template-rows: 30rem 8rem 8rem;
+
     align-items: center;
     justify-items: center;
 
     p {
         text-align: center;
+        align-self: start;
     }
     
     h1 {
         padding-top: 4.5rem;
         font-size: 11.4rem;
         color: rgb(255, 138, 138);
+        animation: popIn .7s ease  1;        
     }
 
     
