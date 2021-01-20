@@ -122,7 +122,7 @@ p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
-  margin-left: 5.8rem;
+  margin-left: 7.8rem;
 }
 
 .card-1 p {
@@ -299,6 +299,18 @@ p {
   grid-column: 2 / span 2;
 }
 
+.card-8-claire {
+  width: 30%;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 .card-8 h2 {
   padding: 0 5rem;
   line-height: 1;
@@ -307,6 +319,9 @@ p {
   -ms-grid-row-span: 1;
   grid-row: 4 / 5;
   grid-column: 2 / -1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .card-8 p {

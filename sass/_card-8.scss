@@ -22,12 +22,20 @@
         grid-column: 2 / span 2;
     }
 
+    &-claire {
+        width: 30%;
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        justify-self: end;
+    }
+
     h2 {
         padding: 0 5rem;
         line-height: 1;
         text-align: center;
         grid-row: 4 / 5;
-        grid-column: 2 / -1; 
+        grid-column: 2 / -1;
+        align-self: center; 
     }
 
     p {
