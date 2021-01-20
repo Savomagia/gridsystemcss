@@ -102,8 +102,8 @@ p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  -webkit-transform: translateY(2.2rem);
-          transform: translateY(2.2rem);
+  -webkit-transform: translate(-4.5rem, 2.2rem);
+          transform: translate(-4.5rem, 2.2rem);
 }
 
 .card-1 h4 {
@@ -113,6 +113,7 @@ p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
+  margin-left: 4rem;
 }
 
 .card-1 h1 {
