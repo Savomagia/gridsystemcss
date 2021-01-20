@@ -38,8 +38,8 @@ body {
     display: grid;
     grid-template-columns: repeat(6, minmax(min-content, 1fr));
     //grid-template-rows: repeat(10, min-content(6rem, 1fr));
-    grid-template-rows: repeat(5, 44rem);
-    gap: 4rem;    
+    grid-template-rows: repeat(4, 44rem);
+    gap: 3.2rem;    
     margin: 6rem 25rem; 
 }
   

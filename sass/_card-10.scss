@@ -1,4 +1,16 @@
 .card-10 {
     background-color: rgb(243, 244, 246);
     grid-column: 1 / -1; 
+    height: 22rem;
+
+    justify-items: center;
+    align-items: center;
+
+    p {
+        width: auto;
+    }
+
+    a {
+        margin: 0 1rem;
+    }
 }
