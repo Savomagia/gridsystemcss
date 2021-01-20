@@ -79,6 +79,38 @@ p {
   line-height: 1.2;
 }
 
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: translateY(-1.45rem) scale(1.2);
+            transform: translateY(-1.45rem) scale(1.2);
+    opacity: .99;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: translateY(-1.45rem) scale(1.2);
+            transform: translateY(-1.45rem) scale(1.2);
+    opacity: .99;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .card-1 {
   background-color: #C0E5FE;
   -ms-grid-column: 1;
@@ -230,38 +262,6 @@ p {
   grid-row: 3 / 4;
   -webkit-animation: breathing 2s ease infinite .25s;
           animation: breathing 2s ease infinite .25s;
-}
-
-@-webkit-keyframes breathing {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: translateY(-1.45rem) scale(1.2);
-            transform: translateY(-1.45rem) scale(1.2);
-    opacity: .99;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@keyframes breathing {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: translateY(-1.45rem) scale(1.2);
-            transform: translateY(-1.45rem) scale(1.2);
-    opacity: .99;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
 }
 
 .card-3 {
