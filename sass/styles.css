@@ -205,8 +205,8 @@ p {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3 / 4;
-  -webkit-animation: breathing 1.2s ease-out infinite  alternate;
-          animation: breathing 1.2s ease-out infinite  alternate;
+  -webkit-animation: breathing 2s ease infinite;
+          animation: breathing 2s ease infinite;
 }
 
 .card-2__dot-2 {
@@ -216,8 +216,8 @@ p {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3 / 4;
-  -webkit-animation: breathing 1.2s ease-out infinite .15s alternate;
-          animation: breathing 1.2s ease-out infinite .15s alternate;
+  -webkit-animation: breathing 2s ease infinite .15s;
+          animation: breathing 2s ease infinite .15s;
 }
 
 .card-2__dot-3 {
@@ -227,47 +227,39 @@ p {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3 / 4;
-  -webkit-animation: breathing 1.2s ease-out infinite .25s alternate;
-          animation: breathing 1.2s ease-out infinite .25s alternate;
+  -webkit-animation: breathing 2s ease infinite .25s;
+          animation: breathing 2s ease infinite .25s;
 }
 
 @-webkit-keyframes breathing {
   0% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
-  25% {
-    -webkit-transform: translateY(-2px) scale(1) translateX(2px);
-            transform: translateY(-2px) scale(1) translateX(2px);
-  }
-  60% {
-    -webkit-transform: translateY(-2.5px) scale(1.2) translateX(2.5px);
-            transform: translateY(-2.5px) scale(1.2) translateX(2.5px);
+  50% {
+    -webkit-transform: translateY(-14.5px) scale(1.2);
+            transform: translateY(-14.5px) scale(1.2);
+    opacity: .99;
   }
   100% {
-    -webkit-transform: translateY(-3px) scale(1.4) translateX(3px) translateZ(1px);
-            transform: translateY(-3px) scale(1.4) translateX(3px) translateZ(1px);
-    opacity: .99;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes breathing {
   0% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
-  25% {
-    -webkit-transform: translateY(-2px) scale(1) translateX(2px);
-            transform: translateY(-2px) scale(1) translateX(2px);
-  }
-  60% {
-    -webkit-transform: translateY(-2.5px) scale(1.2) translateX(2.5px);
-            transform: translateY(-2.5px) scale(1.2) translateX(2.5px);
+  50% {
+    -webkit-transform: translateY(-14.5px) scale(1.2);
+            transform: translateY(-14.5px) scale(1.2);
+    opacity: .99;
   }
   100% {
-    -webkit-transform: translateY(-3px) scale(1.4) translateX(3px) translateZ(1px);
-            transform: translateY(-3px) scale(1.4) translateX(3px) translateZ(1px);
-    opacity: .99;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 

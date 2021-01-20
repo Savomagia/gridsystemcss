@@ -33,37 +33,33 @@
     &__dot-1 {
         grid-column: 4 /  5;
         grid-row: 3 / 4;
-        animation: breathing 1.2s ease-out infinite  alternate;
+        animation: breathing 2s ease infinite;
     }
     &__dot-2 {
         grid-column: 5 / 6;
         grid-row: 3 / 4;
-        animation: breathing 1.2s ease-out infinite .15s alternate;
+        animation: breathing 2s ease infinite .15s;
     }
     &__dot-3 {
         grid-column: 6 / 7;
         grid-row: 3 / 4;
-        animation: breathing 1.2s ease-out infinite .25s alternate;
+        animation: breathing 2s ease infinite .25s;
 
     }
 
     @keyframes breathing {
         0% {
-          transform: scale(0.9);
+          transform: scale(1);
         }
       
-        25% {
-          transform: translateY(-2px) scale(1) translateX(2px);
-        }
-      
-        60% {
-          transform: translateY(-2.5px) scale(1.2) translateX(2.5px);
-        }
-      
-        100% {
-          transform: translateY(-3px) scale(1.4) translateX(3px) translateZ(1px);
+        50% {
+          transform: translateY(-14.5px) scale(1.2);
           opacity: .99;
         }
+
+        100% {
+            transform: scale(1);
+          }  
     }
 
 }
