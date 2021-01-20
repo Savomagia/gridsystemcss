@@ -195,6 +195,7 @@ p {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
+  margin-left: 2rem;
   opacity: 0.420079;
 }
 
@@ -237,8 +238,8 @@ p {
             transform: scale(1);
   }
   50% {
-    -webkit-transform: translateY(-14.5px) scale(1.2);
-            transform: translateY(-14.5px) scale(1.2);
+    -webkit-transform: translateY(-1.45rem) scale(1.2);
+            transform: translateY(-1.45rem) scale(1.2);
     opacity: .99;
   }
   100% {
@@ -253,8 +254,8 @@ p {
             transform: scale(1);
   }
   50% {
-    -webkit-transform: translateY(-14.5px) scale(1.2);
-            transform: translateY(-14.5px) scale(1.2);
+    -webkit-transform: translateY(-1.45rem) scale(1.2);
+            transform: translateY(-1.45rem) scale(1.2);
     opacity: .99;
   }
   100% {
