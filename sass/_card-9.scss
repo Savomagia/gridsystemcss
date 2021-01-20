@@ -1,4 +1,22 @@
 .card-9 {
     background-color: #FFD8D7;
     grid-column: 4 / -1; 
+
+    justify-items: center;
+    grid-template-rows: repeat(5, minmax(1rem,1fr));
+
+    h2 {
+        grid-row: 4 / 5;
+        align-self: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        grid-row: 5 / 6;
+        
+    }
 }
