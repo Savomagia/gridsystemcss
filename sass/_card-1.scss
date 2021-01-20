@@ -35,8 +35,8 @@
 
     & video {
         grid-column: 2 / -1;
-        justify-self: end;
-        transform: translateY(23rem);
+        justify-self: auto;
+        transform: translateY(25.3rem) translateX(4rem);
     }
 
     a {

@@ -32,8 +32,8 @@ body {
   -ms-grid-columns: (minmax(min-content, 1fr))[6];
       grid-template-columns: repeat(6, minmax(-webkit-min-content, 1fr));
       grid-template-columns: repeat(6, minmax(min-content, 1fr));
-  -ms-grid-rows: (44rem)[4];
-      grid-template-rows: repeat(4, 44rem);
+  -ms-grid-rows: (46rem)[4];
+      grid-template-rows: repeat(4, 46rem);
   gap: 3.2rem;
   margin: 6rem 25rem;
 }
@@ -137,10 +137,10 @@ p {
 
 .card-1 video {
   grid-column: 2 / -1;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  -webkit-transform: translateY(23rem);
-          transform: translateY(23rem);
+  -ms-grid-column-align: auto;
+      justify-self: auto;
+  -webkit-transform: translateY(25.3rem) translateX(4rem);
+          transform: translateY(25.3rem) translateX(4rem);
 }
 
 .card-1 a {
