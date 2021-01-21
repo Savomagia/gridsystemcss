@@ -12,6 +12,10 @@
         align-self: start;
     }
     
+    img {
+        transform-origin: bottom;
+        animation: shakeIt 5s ease  infinite;
+    }
 }
 
 

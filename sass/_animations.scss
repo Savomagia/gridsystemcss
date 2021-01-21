@@ -83,8 +83,28 @@
 }
 
 @keyframes shakeIt {
-  10% {
-    transform: scale(1.5) translateY(-15rem);
+  
+  74% {
+    transform: scale(1) translateY(0) rotate(0);
   }
+  75% {
+    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+  }
+  80% {
+    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
+  }
+  85% {
+    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+  }
+  90% {
+    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
+  }
+  95% {
+    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+  }
+  100% {
+    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
+  }
+
 }
 

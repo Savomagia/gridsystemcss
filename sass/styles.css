@@ -262,16 +262,64 @@ p {
 }
 
 @-webkit-keyframes shakeIt {
-  10% {
-    -webkit-transform: scale(1.5) translateY(-15rem);
-            transform: scale(1.5) translateY(-15rem);
+  74% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+  75% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+  }
+  85% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  90% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+  }
+  95% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
   }
 }
 
 @keyframes shakeIt {
-  10% {
-    -webkit-transform: scale(1.5) translateY(-15rem);
-            transform: scale(1.5) translateY(-15rem);
+  74% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+  75% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+  }
+  85% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  90% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+  }
+  95% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
   }
 }
 
@@ -523,6 +571,13 @@ p {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+}
+
+.card-5 img {
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-animation: shakeIt 5s ease  infinite;
+          animation: shakeIt 5s ease  infinite;
 }
 
 .card-6 {
