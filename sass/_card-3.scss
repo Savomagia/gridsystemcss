@@ -25,15 +25,21 @@
         left: 0;
     }
 
-    // &__h1-e{
-    //     animation: popIn 5s ease .2s 1;
-    // }
+    &__h1-e{
+        animation: fromRight 1.2s ease 1;
+        position: relative;
+        left: 0;
+    }
 
-    // &__h1-y{
-    //     animation: popIn 5s ease 1;
-    // }
+    &__h1-y{
+        animation: appear 1.4s ease 1;
+        position: relative;
+        left: 0;
+    }
 
-    // &__h1-\ {
-    //     animation: popIn 5s ease 1;
-    // }
+    &__h1-1{
+        animation: fromLeft 1.4s ease 1;
+        position: relative;
+        left: 0;
+    }
 }
