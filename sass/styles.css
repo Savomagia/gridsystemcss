@@ -267,12 +267,12 @@ p {
             transform: scale(1) translateY(0) rotate(0);
   }
   75% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+    -webkit-transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
   80% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(0rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
   85% {
     -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
@@ -283,12 +283,12 @@ p {
             transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
   }
   95% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
   }
   100% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
   }
 }
 
@@ -298,12 +298,12 @@ p {
             transform: scale(1) translateY(0) rotate(0);
   }
   75% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+    -webkit-transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
   80% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(0rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
   85% {
     -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
@@ -314,12 +314,60 @@ p {
             transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
   }
   95% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
   }
   100% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
+  }
+}
+
+@-webkit-keyframes emojis {
+  0% {
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
+  }
+}
+
+@keyframes emojis {
+  0% {
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
+  }
+}
+
+@-webkit-keyframes emoji {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+            transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+  }
+  11% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+            transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+  }
+  11% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -576,8 +624,8 @@ p {
 .card-5 img {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
-  -webkit-animation: shakeIt 5s ease  infinite;
-          animation: shakeIt 5s ease  infinite;
+  -webkit-animation: shakeIt 5s cubic-bezier(0.03, 1.24, 0.91, 0.99) infinite;
+          animation: shakeIt 5s cubic-bezier(0.03, 1.24, 0.91, 0.99) infinite;
 }
 
 .card-6 {
@@ -585,6 +633,8 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 /span 2;
+  -ms-grid-rows: 34rem 6rem 6rem;
+      grid-template-rows: 34rem 6rem 6rem;
 }
 
 .card-6 img {
@@ -597,11 +647,16 @@ p {
   padding: 0 5rem;
   line-height: 1;
   text-align: center;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
 }
 
 .card-7 {
   background-color: #FEFAF0;
   grid-column: 3 / -1;
+  -ms-grid-rows: 34rem 6rem 6rem;
+      grid-template-rows: 34rem 6rem 6rem;
   justify-items: center;
 }
 

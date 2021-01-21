@@ -88,10 +88,10 @@
     transform: scale(1) translateY(0) rotate(0);
   }
   75% {
-    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+    transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
   80% {
-    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
+    transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
   85% {
     transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
@@ -100,11 +100,45 @@
     transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
   }
   95% {
-    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+    transform: scale(1.1) translateY(-.5rem) rotate(-7.5deg);
   }
   100% {
-    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
+    transform: scale(1.1) translateY(-.5rem) rotate(7.5deg);
   }
 
 }
 
+@keyframes emojis {
+  0% {
+    transform: translateY(10rem);
+  }
+}
+@keyframes emoji {
+  0% {opacity: 0;}
+  10% {
+    opacity: 1; transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+  }
+  11%{opacity: 0;}
+  100%{opacity: 0;}
+
+}
+
+// <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -81px); opacity: 1; transform: translateX(-70.1147px) translateY(-195.182px) scale(1.09254) rotate(83.0277deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -29px); opacity: 0.0238588; transform: translateX(-0.0697202px) translateY(498.086px) scale(0.51035) rotate(-55.6926deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -55px); opacity: 1; transform: translateX(-27.663px) translateY(99.1977px) scale(1.1767) rotate(11.9688deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -62px); opacity: 4.8094e-05; transform: translateX(-0.000364856px) translateY(499.995px) scale(0.500026) rotate(33.3424deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 32px); opacity: 1; transform: translateX(9.42205px) translateY(266.481px) scale(1.24923) rotate(34.744deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 90px); opacity: 0.645892; transform: translateX(4.00211px) translateY(464.301px) scale(0.656182) rotate(52.2898deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 42px); opacity: 0.0823025; transform: translateX(0.312523px) translateY(494.088px) scale(0.530727) rotate(31.2644deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -52px); opacity: 1; transform: translateX(-4.80086px) translateY(425.636px) scale(0.669132) rotate(39.7739deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -52px); opacity: 0.119428; transform: translateX(-0.535749px) translateY(491.77px) scale(0.542011) rotate(-32.2708deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -55px); opacity: 1; transform: translateX(-7.37733px) translateY(393.018px) scale(0.629906) rotate(-65.4129deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -2px); opacity: 0.0108324; transform: translateX(-0.00192519px) translateY(499.085px) scale(0.504942) rotate(-81.5605deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -48px); opacity: 1; transform: translateX(-16.7008px) translateY(221.16px) scale(1.22617) rotate(53.4278deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 84px); opacity: 1; transform: translateX(16.8754px) translateY(339.421px) scale(1.29551) rotate(-62.8697deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + -76px); opacity: 1; transform: translateX(-63.2051px) translateY(-163.4px) scale(1.09299) rotate(41.0146deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 74px); opacity: 0.0423458; transform: translateX(0.300472px) translateY(496.755px) scale(0.517142) rotate(-81.1733deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 27px); opacity: 1; transform: translateX(2.39261px) translateY(428.4px) scale(0.670843) rotate(48.1291deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 65px); opacity: 1; transform: translateX(43.31px) translateY(-33.0956px) scale(1.13035) rotate(20.4363deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/cowboy-b840ebcc83668d770378cccbc96cbfc0.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 61px); opacity: 0.316987; transform: translateX(1.48075px) translateY(480.731px) scale(0.592455) rotate(58.0163deg) translateZ(0px);">
+//   <img srcset="/_next/static/images/confetti-4ec94f1dde79737b1ed7b5ead6387a8e.png 2x" alt="Cowboy emoji" style="position: absolute; left: calc(50% - 40px + 59px); opacity: 1; transform: translateX(20.6137px) translateY(220.013px) scale(0.504879) rotate(-67.676deg) translateZ(0px);">
