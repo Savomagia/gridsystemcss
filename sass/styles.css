@@ -261,6 +261,20 @@ p {
   }
 }
 
+@-webkit-keyframes shakeIt {
+  10% {
+    -webkit-transform: scale(1.5) translateY(-15rem);
+            transform: scale(1.5) translateY(-15rem);
+  }
+}
+
+@keyframes shakeIt {
+  10% {
+    -webkit-transform: scale(1.5) translateY(-15rem);
+            transform: scale(1.5) translateY(-15rem);
+  }
+}
+
 .card-1 {
   background-color: #C0E5FE;
   -ms-grid-column: 1;
@@ -489,8 +503,8 @@ p {
 }
 
 .card-4 img {
-  -webkit-animation: rotation ease-in 7s infinite;
-          animation: rotation ease-in 7s infinite;
+  -webkit-animation: rotation cubic-bezier(0.19, 1.57, 0.83, 0.67) 7s infinite;
+          animation: rotation cubic-bezier(0.19, 1.57, 0.83, 0.67) 7s infinite;
 }
 
 .card-5 {

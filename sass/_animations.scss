@@ -82,3 +82,9 @@
   }
 }
 
+@keyframes shakeIt {
+  10% {
+    transform: scale(1.5) translateY(-15rem);
+  }
+}
+

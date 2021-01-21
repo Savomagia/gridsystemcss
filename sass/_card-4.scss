@@ -13,6 +13,6 @@
     }
 
     img {
-        animation: rotation ease-in 7s infinite;
+        animation: rotation cubic-bezier(.19,1.57,.83,.67) 7s infinite;
     }
 }
