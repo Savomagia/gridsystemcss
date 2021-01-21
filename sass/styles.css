@@ -115,49 +115,41 @@ p {
   }
 }
 
-@-webkit-keyframes popInH {
+@-webkit-keyframes fromRight {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(30rem);
-            transform: translateX(30rem);
+    left: 5rem;
   }
   10% {
-    opacity: 1;
-    -webkit-transform: translateX(20rem);
-            transform: translateX(20rem);
+    opacity: 0;
+    left: 5rem;
   }
-  50% {
-    opacity: 1;
-    -webkit-transform: translateX(10rem);
-            transform: translateX(10rem);
+  20% {
+    opacity: 0;
+    left: 5rem;
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    left: 0;
   }
 }
 
-@keyframes popInH {
+@keyframes fromRight {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(30rem);
-            transform: translateX(30rem);
+    left: 5rem;
   }
   10% {
-    opacity: 1;
-    -webkit-transform: translateX(20rem);
-            transform: translateX(20rem);
+    opacity: 0;
+    left: 5rem;
   }
-  50% {
-    opacity: 1;
-    -webkit-transform: translateX(10rem);
-            transform: translateX(10rem);
+  20% {
+    opacity: 0;
+    left: 5rem;
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    left: 0;
   }
 }
 
@@ -367,8 +359,10 @@ p {
 }
 
 .card-3__h1-h {
-  -webkit-animation: popInH 5s ease 1;
-          animation: popInH 5s ease 1;
+  -webkit-animation: fromRight 1s ease 1;
+          animation: fromRight 1s ease 1;
+  position: relative;
+  left: 0;
 }
 
 .card-4 {

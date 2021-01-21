@@ -16,11 +16,13 @@
         padding-top: 4.5rem;
         font-size: 11.4rem;
         color: rgb(255, 138, 138);
-                
+                    
     }
 
     &__h1-h{
-        animation: popInH 5s ease 1;
+        animation: fromRight 1s ease 1;
+        position: relative;
+        left: 0;
     }
 
     // &__h1-e{
