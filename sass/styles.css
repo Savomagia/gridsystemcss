@@ -239,6 +239,28 @@ p {
   }
 }
 
+@-webkit-keyframes rotation {
+  25% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes rotation {
+  25% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
 .card-1 {
   background-color: #C0E5FE;
   -ms-grid-column: 1;
@@ -464,6 +486,11 @@ p {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+}
+
+.card-4 img {
+  -webkit-animation: rotation ease-in 7s infinite;
+          animation: rotation ease-in 7s infinite;
 }
 
 .card-5 {

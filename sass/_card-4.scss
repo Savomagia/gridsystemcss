@@ -11,4 +11,8 @@
         text-align: center;
         align-self: start;
     }
+
+    img {
+        animation: rotation ease-in 7s infinite;
+    }
 }

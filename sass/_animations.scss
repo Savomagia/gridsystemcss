@@ -72,3 +72,13 @@
     }
 }
 
+@keyframes rotation {
+  25% {
+    transform: rotate(180deg);
+  }
+ 
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
