@@ -13,15 +13,30 @@
       }  
 }
 
+@keyframes popInH {
+  0% {
+      opacity: 0;
+      transform: translateX(30rem);
+  }
+  10%{
+    opacity: 1;
+    transform: translateX(20rem);
+  }
+  50%{
+    opacity: 1;
+    transform: translateX(10rem);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
 @keyframes popIn {
     0% {
         opacity: 0;
         transform: translateX(3rem);
     }
-    // 50% {
-    //     opacity: .5;
-    //     transform: translateX(1.5rem);
-    // }
     100% {
         opacity: 1;
         transform: translateX(0);

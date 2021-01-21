@@ -16,8 +16,22 @@
         padding-top: 4.5rem;
         font-size: 11.4rem;
         color: rgb(255, 138, 138);
-        animation: popIn .7s ease  1;        
+                
     }
 
-    
+    &__h1-h{
+        animation: popInH 5s ease 1;
+    }
+
+    // &__h1-e{
+    //     animation: popIn 5s ease .2s 1;
+    // }
+
+    // &__h1-y{
+    //     animation: popIn 5s ease 1;
+    // }
+
+    // &__h1-\ {
+    //     animation: popIn 5s ease 1;
+    // }
 }
