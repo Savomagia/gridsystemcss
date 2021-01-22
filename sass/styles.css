@@ -1017,7 +1017,7 @@ p {
 }
 
 .card-6 {
-  background-color: #BBF5D5;
+  background-color: #bbf5d5;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 /span 2;
@@ -1040,12 +1040,15 @@ p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
 }
 
 .card-6__cowboy {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-row-span: 1;
-  grid-row: 3 / 4;
+  grid-row: 2 / 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
@@ -1102,10 +1105,60 @@ p {
           animation: emoji-10 10s infinite 9s;
 }
 
+.card-6__cowboy-11 {
+  -webkit-animation: emoji-10 10s infinite .5s;
+          animation: emoji-10 10s infinite .5s;
+}
+
+.card-6__cowboy-12 {
+  -webkit-animation: emoji-1 10s infinite 1.5s;
+          animation: emoji-1 10s infinite 1.5s;
+}
+
+.card-6__cowboy-13 {
+  -webkit-animation: emoji-15 10s infinite 2.5s;
+          animation: emoji-15 10s infinite 2.5s;
+}
+
+.card-6__cowboy-14 {
+  -webkit-animation: emoji-3 10s infinite 3.5s;
+          animation: emoji-3 10s infinite 3.5s;
+}
+
+.card-6__cowboy-15 {
+  -webkit-animation: emoji-2 10s infinite 4.5s;
+          animation: emoji-2 10s infinite 4.5s;
+}
+
+.card-6__cowboy-16 {
+  -webkit-animation: emoji-10 10s infinite 5.5s;
+          animation: emoji-10 10s infinite 5.5s;
+}
+
+.card-6__cowboy-17 {
+  -webkit-animation: emoji-10 10s infinite 6.5s;
+          animation: emoji-10 10s infinite 6.5s;
+}
+
+.card-6__cowboy-18 {
+  -webkit-animation: emoji-10 10s infinite 7.5s;
+          animation: emoji-10 10s infinite 7.5s;
+}
+
+.card-6__cowboy-19 {
+  -webkit-animation: emoji-10 10s infinite 8.5s;
+          animation: emoji-10 10s infinite 8.5s;
+}
+
+.card-6__cowboy-20 {
+  -webkit-animation: emoji-10 10s infinite 9.5s;
+          animation: emoji-10 10s infinite 9.5s;
+}
+
 .card-6__confetti {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-row-span: 1;
-  grid-row: 3 / 4;
+  grid-row: 2 / 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
@@ -1160,6 +1213,56 @@ p {
 .card-6__confetti-10 {
   -webkit-animation: emoji-1 10s infinite 9s;
           animation: emoji-1 10s infinite 9s;
+}
+
+.card-6__confetti-11 {
+  -webkit-animation: emoji-6 10s infinite .5s;
+          animation: emoji-6 10s infinite .5s;
+}
+
+.card-6__confetti-12 {
+  -webkit-animation: emoji-4 10s infinite 1.5s;
+          animation: emoji-4 10s infinite 1.5s;
+}
+
+.card-6__confetti-13 {
+  -webkit-animation: emoji-9 10s infinite 2.5s;
+          animation: emoji-9 10s infinite 2.5s;
+}
+
+.card-6__confetti-14 {
+  -webkit-animation: emoji-8 10s infinite 3.5s;
+          animation: emoji-8 10s infinite 3.5s;
+}
+
+.card-6__confetti-15 {
+  -webkit-animation: emoji-7 10s infinite 4.5s;
+          animation: emoji-7 10s infinite 4.5s;
+}
+
+.card-6__confetti-16 {
+  -webkit-animation: emoji-1 10s infinite 5.5s;
+          animation: emoji-1 10s infinite 5.5s;
+}
+
+.card-6__confetti-17 {
+  -webkit-animation: emoji-1 10s infinite 6.5s;
+          animation: emoji-1 10s infinite 6.5s;
+}
+
+.card-6__confetti-18 {
+  -webkit-animation: emoji-1 10s infinite 7.5s;
+          animation: emoji-1 10s infinite 7.5s;
+}
+
+.card-6__confetti-19 {
+  -webkit-animation: emoji-1 10s infinite 8.5s;
+          animation: emoji-1 10s infinite 8.5s;
+}
+
+.card-6__confetti-20 {
+  -webkit-animation: emoji-1 10s infinite 9.5s;
+          animation: emoji-1 10s infinite 9.5s;
 }
 
 .card-7 {

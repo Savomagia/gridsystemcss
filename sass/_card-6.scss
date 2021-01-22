@@ -1,5 +1,5 @@
 .card-6 {
-    background-color: #BBF5D5;
+    background-color: rgb(187, 245, 213);
     grid-column: 1 /span 2; 
 
     grid-template-rows: 34rem 6rem 6rem;
@@ -16,10 +16,11 @@
         line-height: 1;
         text-align: center;
         grid-row: 2 / 3;
+        grid-column: 1 / 2;
     }
 
     &__cowboy{
-        grid-row: 3 / 4;
+        grid-row: 2 / 3;
         grid-column: 1 / 2;
         opacity: 0;
     }
@@ -71,8 +72,58 @@
         animation: emoji-10 10s infinite 9s;
     }
 
+    &__cowboy-11{
+        
+        animation: emoji-10 10s infinite .5s;
+    }
+
+    &__cowboy-12{
+        
+        animation: emoji-1 10s infinite 1.5s;
+    }
+
+    &__cowboy-13{
+        
+        animation: emoji-15 10s infinite 2.5s;
+    }
+
+    &__cowboy-14{
+        
+        animation: emoji-3 10s infinite 3.5s;
+    }
+
+    &__cowboy-15{
+        
+        animation: emoji-2 10s infinite 4.5s;
+    }
+
+    &__cowboy-16{
+        
+        animation: emoji-10 10s infinite 5.5s;
+    }
+
+    &__cowboy-17{
+        
+        animation: emoji-10 10s infinite 6.5s;
+    }
+
+    &__cowboy-18{
+        
+        animation: emoji-10 10s infinite 7.5s;
+    }
+
+    &__cowboy-19{
+        
+        animation: emoji-10 10s infinite 8.5s;
+    }
+
+    &__cowboy-20{
+        
+        animation: emoji-10 10s infinite 9.5s;
+    }
+
     &__confetti{
-        grid-row: 3 / 4;
+        grid-row: 2 / 3;
         grid-column: 1 / 2;
         opacity: 0;  
     }
@@ -115,6 +166,46 @@
 
     &__confetti-10{
         animation: emoji-1 10s infinite 9s; 
+    }
+
+    &__confetti-11{
+        animation: emoji-6 10s infinite .5s; 
+    }
+
+    &__confetti-12{
+        animation: emoji-4 10s infinite 1.5s; 
+    }
+
+    &__confetti-13{
+        animation: emoji-9 10s infinite 2.5s; 
+    }
+
+    &__confetti-14{
+        animation: emoji-8 10s infinite 3.5s; 
+    }
+
+    &__confetti-15{
+        animation: emoji-7 10s infinite 4.5s; 
+    }
+
+    &__confetti-16{
+        animation: emoji-1 10s infinite 5.5s; 
+    }
+
+    &__confetti-17{
+        animation: emoji-1 10s infinite 6.5s; 
+    }
+
+    &__confetti-18{
+        animation: emoji-1 10s infinite 7.5s; 
+    }
+
+    &__confetti-19{
+        animation: emoji-1 10s infinite 8.5s; 
+    }
+
+    &__confetti-20{
+        animation: emoji-1 10s infinite 9.5s; 
     }
 
 }
