@@ -111,6 +111,7 @@
 
 @keyframes emoji-1 {
   0% {opacity: 0;}
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform:translateY(-60rem) scale(2.5) rotate(79.4611deg);
@@ -124,6 +125,7 @@
   0% {
     opacity: 0; 
     transform:translateX(-6rem)}
+    10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(-9rem) translateY(-60rem) scale(1.5) rotate(-79.4611deg);
@@ -139,6 +141,7 @@
     opacity: 0;
     transform: translateX(2.5rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(4.5rem) translateY(-60rem) scale(3.1) rotate(36.4611deg);
@@ -153,6 +156,7 @@
     opacity: 0;
     transform: translateX(4.7rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(13rem) translateY(-60rem) scale(2.3) rotate(83.0277deg);
@@ -167,6 +171,7 @@
     opacity: 0;
     transform: translateX(-6em);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(-12rem) translateY(-60rem) scale(2.7) rotate(-55.6926deg);
@@ -181,6 +186,7 @@
     opacity: 0;
     transform: translateX(6rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(12rem) translateY(-60rem) scale(1.5) rotate(52.2898deg);
@@ -195,6 +201,7 @@
     opacity: 0;
     transform: translateX(5rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(10rem) translateY(-60rem) scale(2.3) rotate(-67.676deg);
@@ -209,6 +216,7 @@
     opacity: 0;
     transform: translateX(6rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
@@ -223,6 +231,7 @@
     opacity: 0;
     transform: translateX(-3.5rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(-6.5rem) translateY(-60rem) scale(1.2) rotate(20.4363deg);
@@ -237,6 +246,7 @@
     opacity: 0;
     transform: translateX(-4rem);
   }
+  10% {opacity:1;}
   20% {
     opacity: 1; 
     transform: translateX(-8rem) translateY(-60rem) scale(4.5) rotate(48.1291deg);

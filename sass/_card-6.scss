@@ -21,54 +21,53 @@
     &__cowboy{
         grid-row: 3 / 4;
         grid-column: 1 / 2;
-        //animation: emoji 10s infinite;
     }
 
     &__cowboy-1{
-        animation: emoji-1 11s infinite;
+        animation: emoji-1 10s infinite 0s;
     }
 
     &__cowboy-2{
-        animation: emoji-2 11s infinite;
+        animation: emoji-2 10s infinite 1s;
     }
 
     &__cowboy-3{
         
-        animation: emoji-3 11s infinite;
+        animation: emoji-3 10s infinite 2s ;
     }
     &__cowboy-4{
         
-        animation: emoji-4 11s infinite 1s;
+        animation: emoji-4 10s infinite 3s;
     }
 
     &__cowboy-5{
         
-        animation: emoji-5 11s infinite 1s;
+        animation: emoji-5 10s infinite 4s;
     }
 
     &__cowboy-6{
         
-        animation: emoji-6 11s infinite 2s;
+        animation: emoji-6 10s infinite 5s;
     }
 
     &__cowboy-7{
         
-        animation: emoji-7 11s infinite 2s;
+        animation: emoji-7 10s infinite 6s;
     }
 
     &__cowboy-8{
         
-        animation: emoji-8 11s infinite 2s;
+        animation: emoji-8 10s infinite 7s;
     }
 
     &__cowboy-9{
         
-        animation: emoji-9 11s infinite 3s;
+        animation: emoji-9 10s infinite 8s;
     }
 
     &__cowboy-10{
         
-        animation: emoji-10 11s infinite 3s;
+        animation: emoji-10 10s infinite 9s;
     }
 
     &__confetti{
@@ -77,43 +76,43 @@
     }
 
     &__confetti-1{
-        animation: emoji-1 11s infinite 2s; 
+        animation: emoji-10 10s infinite 0s; 
     }
 
     &__confetti-2{
-        animation: emoji-2 11s infinite 2s; 
+        animation: emoji-9 10s infinite 1s; 
     }
 
     &__confetti-3{
-        animation: emoji-3 11s infinite 2s; 
+        animation: emoji-8 10s infinite 2s; 
     }
 
     &__confetti-4{
-        animation: emoji-4 11s infinite 3s; 
+        animation: emoji-7 10s infinite 3s; 
     }
     
     &__confetti-5{
-        animation: emoji-5 11s infinite 3s; 
+        animation: emoji-6 10s infinite 4s; 
     }
 
     &__confetti-6{
-        animation: emoji-6 11s infinite 3s; 
+        animation: emoji-5 10s infinite 5s; 
     }
 
     &__confetti-7{
-        animation: emoji-7 11s infinite; 
+        animation: emoji-4 10s infinite 6s; 
     }
 
     &__confetti-8{
-        animation: emoji-8 11s infinite 1s; 
+        animation: emoji-3 10s infinite 7s; 
     }
 
     &__confetti-9{
-        animation: emoji-9 11s infinite 1s; 
+        animation: emoji-2 10s infinite 8s; 
     }
 
     &__confetti-10{
-        animation: emoji-10 11s infinite 1s; 
+        animation: emoji-1 10s infinite 9s; 
     }
 
 }
