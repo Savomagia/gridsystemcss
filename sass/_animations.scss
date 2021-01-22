@@ -109,11 +109,39 @@
 }
 
 
-@keyframes emoji {
+@keyframes emoji-1 {
   0% {opacity: 0;}
   20% {
     opacity: 1; 
     transform:translateY(-60rem) scale(2.5) rotate(79.4611deg);
+  }
+  21%{opacity: 0;}
+  100%{opacity: 0;}
+
+}
+
+@keyframes emoji-2 {
+  0% {
+    opacity: 0; 
+    transform:translateX(-6rem)}
+  20% {
+    opacity: 1; 
+    transform: translateX(-9rem) translateY(-60rem) scale(1.5) rotate(-79.4611deg);
+  }
+  
+  21%{opacity: 0;}
+  100%{opacity: 0;}
+
+}
+
+@keyframes emoji-3 {
+  0% {
+    opacity: 0;
+    transform: translateX(4rem);
+  }
+  20% {
+    opacity: 1; 
+    transform: translateX(8rem) translateY(-60rem) scale(3.5) rotate(36.4611deg);
   }
   21%{opacity: 0;}
   100%{opacity: 0;}

@@ -21,25 +21,26 @@
     &__cowboy{
         grid-row: 3 / 4;
         grid-column: 1 / 2;
-        animation: emoji 10s infinite;
+        //animation: emoji 10s infinite;
     }
 
     &__cowboy-1{
-        
+        animation: emoji-1 10s infinite;
     }
 
     &__cowboy-2{
-        transform: translateX(-3rem);
+        animation: emoji-2 11s infinite;
     }
 
     &__cowboy-3{
-        transform: translateX(4rem);
+        
+        animation: emoji-3 9s infinite;
     }
 
     &__confetti{
         grid-row: 3 / 4;
         grid-column: 1 / 2;
-        animation: emoji 8s infinite;
+        
     }
 
     &__confetti-1{
