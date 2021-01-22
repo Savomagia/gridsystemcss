@@ -1348,14 +1348,11 @@ p {
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[5];
       grid-template-rows: repeat(5, 1fr);
+  position: relative;
 }
 
 .card-8 img {
   height: auto;
-}
-
-.card-8-claire {
-  position: relative;
 }
 
 .card-8 svg {
@@ -1365,11 +1362,20 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
+  overflow: visible;
+}
+
+.card-8 circle {
+  position: absolute;
+  -webkit-transform: translate(5.95rem, 5.65rem);
+          transform: translate(5.95rem, 5.65rem);
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .card-8-phone {
   width: 150%;
-  grid-row: 3 / -1;
+  grid-row: 4 / -1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
@@ -1395,6 +1401,12 @@ p {
   grid-column: 1 / 2;
   -ms-grid-column-align: end;
       justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: absolute;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
 }
 
 .card-8 h2 {

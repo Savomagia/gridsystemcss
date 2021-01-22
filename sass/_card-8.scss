@@ -6,31 +6,28 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
 
+    position: relative;
+
     img {
         height: auto;   
     }
-
-    &-claire {
-        position: relative;
-    
-    }
-    // div {
-    //     border: 3px solid blue;
-    //     border-radius: 50%;
-    //     position: absolute;
-    //     top: -6rem;
-    //     right: -6rem;
-    //     grid-row: 4 / 5;
-    //     grid-column: 1 / 2;
-    // }
+  
     svg {
         grid-row: 4 / 5;
         grid-column: 1 / 2;
+        overflow: visible;
+    }
+
+    circle {
+        position: absolute;
+        transform: translate(5.95rem, 5.65rem);
+        justify-self: center;
+        
     }
 
     &-phone {
         width: 150%;
-        grid-row: 3 / -1;
+        grid-row: 4 / -1;
         grid-column: 1 / 2;
     }
 
@@ -45,6 +42,9 @@
         grid-row: 4 / 5;
         grid-column: 1 / 2;
         justify-self: end;
+        align-self: center;
+        position: absolute;
+        transform: translateY(2rem);
     }
 
     h2 {
