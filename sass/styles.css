@@ -1409,8 +1409,7 @@ p {
           transform: translateY(2rem);
 }
 
-.card-8 h2 {
-  padding: 0 5rem;
+.card-8 h1 {
   line-height: 1;
   text-align: center;
   -ms-grid-row: 4;
