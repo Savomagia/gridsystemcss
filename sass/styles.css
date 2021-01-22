@@ -1354,19 +1354,6 @@ p {
   height: auto;
 }
 
-.card-8-claire {
-  position: relative;
-}
-
-.card-8 svg {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4 / 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
 .card-8-phone {
   width: 150%;
   grid-row: 3 / -1;
