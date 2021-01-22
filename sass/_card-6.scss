@@ -19,9 +19,6 @@
     }
 
     &__cowboy{
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: space-evenly;
         grid-row: 3 / 4;
         grid-column: 1 / 2;
         animation: emoji 10s infinite;

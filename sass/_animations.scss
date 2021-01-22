@@ -108,17 +108,14 @@
 
 }
 
-@keyframes emojis {
-  0% {
-    transform: translateY(-10rem);
-  }
-}
+
 @keyframes emoji {
   0% {opacity: 0;}
-  10% {
-    opacity: 1; transform: translateX(0px) translateY(-364.041px) scale(0.5) rotate(79.4611deg);
+  20% {
+    opacity: 1; 
+    transform:translateY(-60rem) scale(2.5) rotate(79.4611deg);
   }
-  11%{opacity: 0;}
+  21%{opacity: 0;}
   100%{opacity: 0;}
 
 }
