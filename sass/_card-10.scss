@@ -45,7 +45,7 @@
         &.balloon-2{
             grid-column: 3 / 4;
             grid-row: 3 / 4;
-            animation: bouncing-2 11s infinite;
+            animation: bouncing-2 8s infinite;
         }
         &.balloon-3{
             grid-column: 1 / 2;
@@ -55,10 +55,12 @@
         &.balloon-4{
             grid-column: 5 / 6;
             grid-row: 4 / 5;
+            animation: bouncing-2 12s infinite
         }
         &.balloon-5{
             grid-column: 6 / 7;
             grid-row: 2 / 3;
+            animation: bouncing-1 11s infinite;
         }
     }
     
