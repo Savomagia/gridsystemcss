@@ -398,13 +398,13 @@ p {
 @-webkit-keyframes emoji-3 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(4rem);
-            transform: translateX(4rem);
+    -webkit-transform: translateX(2.5rem);
+            transform: translateX(2.5rem);
   }
   20% {
     opacity: 1;
-    -webkit-transform: translateX(8rem) translateY(-60rem) scale(3.5) rotate(36.4611deg);
-            transform: translateX(8rem) translateY(-60rem) scale(3.5) rotate(36.4611deg);
+    -webkit-transform: translateX(4.5rem) translateY(-60rem) scale(3.1) rotate(36.4611deg);
+            transform: translateX(4.5rem) translateY(-60rem) scale(3.1) rotate(36.4611deg);
   }
   21% {
     opacity: 0;
@@ -417,13 +417,279 @@ p {
 @keyframes emoji-3 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(4rem);
-            transform: translateX(4rem);
+    -webkit-transform: translateX(2.5rem);
+            transform: translateX(2.5rem);
   }
   20% {
     opacity: 1;
-    -webkit-transform: translateX(8rem) translateY(-60rem) scale(3.5) rotate(36.4611deg);
-            transform: translateX(8rem) translateY(-60rem) scale(3.5) rotate(36.4611deg);
+    -webkit-transform: translateX(4.5rem) translateY(-60rem) scale(3.1) rotate(36.4611deg);
+            transform: translateX(4.5rem) translateY(-60rem) scale(3.1) rotate(36.4611deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(4.7rem);
+            transform: translateX(4.7rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(13rem) translateY(-60rem) scale(2.3) rotate(83.0277deg);
+            transform: translateX(13rem) translateY(-60rem) scale(2.3) rotate(83.0277deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(4.7rem);
+            transform: translateX(4.7rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(13rem) translateY(-60rem) scale(2.3) rotate(83.0277deg);
+            transform: translateX(13rem) translateY(-60rem) scale(2.3) rotate(83.0277deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-5 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-6em);
+            transform: translateX(-6em);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-12rem) translateY(-60rem) scale(2.7) rotate(-55.6926deg);
+            transform: translateX(-12rem) translateY(-60rem) scale(2.7) rotate(-55.6926deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-5 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-6em);
+            transform: translateX(-6em);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-12rem) translateY(-60rem) scale(2.7) rotate(-55.6926deg);
+            transform: translateX(-12rem) translateY(-60rem) scale(2.7) rotate(-55.6926deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-6 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6rem);
+            transform: translateX(6rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(12rem) translateY(-60rem) scale(1.5) rotate(52.2898deg);
+            transform: translateX(12rem) translateY(-60rem) scale(1.5) rotate(52.2898deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-6 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6rem);
+            transform: translateX(6rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(12rem) translateY(-60rem) scale(1.5) rotate(52.2898deg);
+            transform: translateX(12rem) translateY(-60rem) scale(1.5) rotate(52.2898deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-7 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(5rem);
+            transform: translateX(5rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(10rem) translateY(-60rem) scale(2.3) rotate(-67.676deg);
+            transform: translateX(10rem) translateY(-60rem) scale(2.3) rotate(-67.676deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-7 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(5rem);
+            transform: translateX(5rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(10rem) translateY(-60rem) scale(2.3) rotate(-67.676deg);
+            transform: translateX(10rem) translateY(-60rem) scale(2.3) rotate(-67.676deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-8 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6rem);
+            transform: translateX(6rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+            transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-8 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6rem);
+            transform: translateX(6rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+            transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-9 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-3.5rem);
+            transform: translateX(-3.5rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-6.5rem) translateY(-60rem) scale(1.2) rotate(20.4363deg);
+            transform: translateX(-6.5rem) translateY(-60rem) scale(1.2) rotate(20.4363deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-9 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-3.5rem);
+            transform: translateX(-3.5rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-6.5rem) translateY(-60rem) scale(1.2) rotate(20.4363deg);
+            transform: translateX(-6.5rem) translateY(-60rem) scale(1.2) rotate(20.4363deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes emoji-10 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-4rem);
+            transform: translateX(-4rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-8rem) translateY(-60rem) scale(4.5) rotate(48.1291deg);
+            transform: translateX(-8rem) translateY(-60rem) scale(4.5) rotate(48.1291deg);
+  }
+  21% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes emoji-10 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-4rem);
+            transform: translateX(-4rem);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-8rem) translateY(-60rem) scale(4.5) rotate(48.1291deg);
+            transform: translateX(-8rem) translateY(-60rem) scale(4.5) rotate(48.1291deg);
   }
   21% {
     opacity: 0;
@@ -726,8 +992,8 @@ p {
 }
 
 .card-6__cowboy-1 {
-  -webkit-animation: emoji-1 10s infinite;
-          animation: emoji-1 10s infinite;
+  -webkit-animation: emoji-1 11s infinite;
+          animation: emoji-1 11s infinite;
 }
 
 .card-6__cowboy-2 {
@@ -736,8 +1002,43 @@ p {
 }
 
 .card-6__cowboy-3 {
-  -webkit-animation: emoji-3 9s infinite;
-          animation: emoji-3 9s infinite;
+  -webkit-animation: emoji-3 11s infinite;
+          animation: emoji-3 11s infinite;
+}
+
+.card-6__cowboy-4 {
+  -webkit-animation: emoji-4 11s infinite 1s;
+          animation: emoji-4 11s infinite 1s;
+}
+
+.card-6__cowboy-5 {
+  -webkit-animation: emoji-5 11s infinite 1s;
+          animation: emoji-5 11s infinite 1s;
+}
+
+.card-6__cowboy-6 {
+  -webkit-animation: emoji-6 11s infinite 2s;
+          animation: emoji-6 11s infinite 2s;
+}
+
+.card-6__cowboy-7 {
+  -webkit-animation: emoji-7 11s infinite 2s;
+          animation: emoji-7 11s infinite 2s;
+}
+
+.card-6__cowboy-8 {
+  -webkit-animation: emoji-8 11s infinite 2s;
+          animation: emoji-8 11s infinite 2s;
+}
+
+.card-6__cowboy-9 {
+  -webkit-animation: emoji-9 11s infinite 3s;
+          animation: emoji-9 11s infinite 3s;
+}
+
+.card-6__cowboy-10 {
+  -webkit-animation: emoji-10 11s infinite 3s;
+          animation: emoji-10 11s infinite 3s;
 }
 
 .card-6__confetti {
@@ -747,6 +1048,56 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
+}
+
+.card-6__confetti-1 {
+  -webkit-animation: emoji-1 11s infinite 2s;
+          animation: emoji-1 11s infinite 2s;
+}
+
+.card-6__confetti-2 {
+  -webkit-animation: emoji-2 11s infinite 2s;
+          animation: emoji-2 11s infinite 2s;
+}
+
+.card-6__confetti-3 {
+  -webkit-animation: emoji-3 11s infinite 2s;
+          animation: emoji-3 11s infinite 2s;
+}
+
+.card-6__confetti-4 {
+  -webkit-animation: emoji-4 11s infinite 3s;
+          animation: emoji-4 11s infinite 3s;
+}
+
+.card-6__confetti-5 {
+  -webkit-animation: emoji-5 11s infinite 3s;
+          animation: emoji-5 11s infinite 3s;
+}
+
+.card-6__confetti-6 {
+  -webkit-animation: emoji-6 11s infinite 3s;
+          animation: emoji-6 11s infinite 3s;
+}
+
+.card-6__confetti-7 {
+  -webkit-animation: emoji-7 11s infinite;
+          animation: emoji-7 11s infinite;
+}
+
+.card-6__confetti-8 {
+  -webkit-animation: emoji-8 11s infinite 1s;
+          animation: emoji-8 11s infinite 1s;
+}
+
+.card-6__confetti-9 {
+  -webkit-animation: emoji-9 11s infinite 1s;
+          animation: emoji-9 11s infinite 1s;
+}
+
+.card-6__confetti-10 {
+  -webkit-animation: emoji-10 11s infinite 1s;
+          animation: emoji-10 11s infinite 1s;
 }
 
 .card-7 {
