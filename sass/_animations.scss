@@ -169,7 +169,7 @@
 @keyframes emoji-5 {
   0% {
     opacity: 0;
-    transform: translateX(-6em);
+    transform: translateX(-9em);
   }
   10% {opacity:1;}
   20% {
@@ -214,12 +214,12 @@
 @keyframes emoji-8 {
   0% {
     opacity: 0;
-    transform: translateX(6rem);
+    transform: translateX(-7rem);
   }
   10% {opacity:1;}
   20% {
     opacity: 1; 
-    transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+    transform: translateX(-9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
   }
   21%{opacity: 0;}
   100%{opacity: 0;}

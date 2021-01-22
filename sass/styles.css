@@ -498,8 +498,8 @@ p {
 @-webkit-keyframes emoji-5 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-6em);
-            transform: translateX(-6em);
+    -webkit-transform: translateX(-9em);
+            transform: translateX(-9em);
   }
   10% {
     opacity: 1;
@@ -520,8 +520,8 @@ p {
 @keyframes emoji-5 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-6em);
-            transform: translateX(-6em);
+    -webkit-transform: translateX(-9em);
+            transform: translateX(-9em);
   }
   10% {
     opacity: 1;
@@ -630,16 +630,16 @@ p {
 @-webkit-keyframes emoji-8 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(6rem);
-            transform: translateX(6rem);
+    -webkit-transform: translateX(-7rem);
+            transform: translateX(-7rem);
   }
   10% {
     opacity: 1;
   }
   20% {
     opacity: 1;
-    -webkit-transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
-            transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+    -webkit-transform: translateX(-9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+            transform: translateX(-9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
   }
   21% {
     opacity: 0;
@@ -652,16 +652,16 @@ p {
 @keyframes emoji-8 {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(6rem);
-            transform: translateX(6rem);
+    -webkit-transform: translateX(-7rem);
+            transform: translateX(-7rem);
   }
   10% {
     opacity: 1;
   }
   20% {
     opacity: 1;
-    -webkit-transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
-            transform: translateX(9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+    -webkit-transform: translateX(-9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
+            transform: translateX(-9.5rem) translateY(-60rem) scale(3) rotate(58.0163deg);
   }
   21% {
     opacity: 0;
@@ -1049,6 +1049,7 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
+  opacity: 0;
 }
 
 .card-6__cowboy-1 {
@@ -1108,6 +1109,7 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
+  opacity: 0;
 }
 
 .card-6__confetti-1 {
