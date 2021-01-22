@@ -10,6 +10,24 @@
         height: auto;   
     }
 
+    &-claire {
+        position: relative;
+    
+    }
+    // div {
+    //     border: 3px solid blue;
+    //     border-radius: 50%;
+    //     position: absolute;
+    //     top: -6rem;
+    //     right: -6rem;
+    //     grid-row: 4 / 5;
+    //     grid-column: 1 / 2;
+    // }
+    svg {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+    }
+
     &-phone {
         width: 150%;
         grid-row: 3 / -1;
@@ -17,7 +35,7 @@
     }
 
     &-thunder {
-        width: 50%;
+        width: 45%;
         grid-row: 1 / 4;
         grid-column: 2 / span 2;
     }
@@ -30,6 +48,7 @@
     }
 
     h1 {
+        padding: 0 5rem;
         line-height: 1;
         text-align: center;
         grid-row: 4 / 5;
@@ -38,8 +57,14 @@
     }
 
     p {
-        text-align: center;
         grid-row: 5 / 6;
-        grid-column: 2 / -1;  
+        grid-column: 2 / -1;
+        margin-left: 3rem;  
     }
 }
+
+
+//<svg width="80" height="80" style="position:absolute;top:164px;right:163px;z-index:2"><circle cx="40" cy="40" r="38" stroke="#1A88F8" stroke-width="4.43" fill="none" stroke-dashoffset="238.7" stroke-dasharray="238.761" style="transform: rotate(-90deg) translateZ(0px); transform-origin: 40px 40px;"></circle></svg>
+
+//0% opacity: 0; transform: scale(1)
+//100% opacity: 1: transform: scale(.8)

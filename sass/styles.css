@@ -81,6 +81,7 @@ p {
   letter-spacing: 0.05rem;
   width: 75%;
   line-height: 1.2;
+  text-align: center;
 }
 
 @-webkit-keyframes breathing {
@@ -1354,6 +1355,19 @@ p {
   height: auto;
 }
 
+.card-8-claire {
+  position: relative;
+}
+
+.card-8 svg {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
 .card-8-phone {
   width: 150%;
   grid-row: 3 / -1;
@@ -1363,7 +1377,7 @@ p {
 }
 
 .card-8-thunder {
-  width: 50%;
+  width: 45%;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1 / 4;
@@ -1385,6 +1399,7 @@ p {
 }
 
 .card-8 h1 {
+  padding: 0 5rem;
   line-height: 1;
   text-align: center;
   -ms-grid-row: 4;
@@ -1397,11 +1412,11 @@ p {
 }
 
 .card-8 p {
-  text-align: center;
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5 / 6;
   grid-column: 2 / -1;
+  margin-left: 3rem;
 }
 
 .card-9 {
@@ -1412,7 +1427,7 @@ p {
       grid-template-rows: repeat(5, minmax(1rem, 1fr));
 }
 
-.card-9 h2 {
+.card-9 h1 {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4 / 5;
