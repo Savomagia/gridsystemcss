@@ -30,12 +30,32 @@
     }
 
     &__balloon {
-        //width: 50%;
+        //width: 10%;
         opacity: 1;
-        display: grid;
+
         &.balloon-1{
             width: 50%;
             grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+        &.balloon-2{
+            width: 50%;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+        &.balloon-3{
+            width: 50%;
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }
+        &.balloon-4{
+            width: 50%;
+            grid-column: 5 / 6;
+            grid-row: 4 / 5;
+        }
+        &.balloon-5{
+            width: 50%;
+            grid-column: 6 / 7;
             grid-row: 2 / 3;
         }
     }
