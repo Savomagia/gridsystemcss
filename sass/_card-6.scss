@@ -26,7 +26,7 @@
     }
 
     &__cowboy-1{
-        animation: emoji-1 10s infinite 0s;
+        animation: emoji-1 10s infinite 0.1s;
     }
 
     &__cowboy-2{
@@ -35,7 +35,7 @@
 
     &__cowboy-3{
         
-        animation: emoji-3 10s infinite 2s ;
+        animation: emoji-3 10s infinite 2.1s ;
     }
     &__cowboy-4{
         
@@ -44,7 +44,7 @@
 
     &__cowboy-5{
         
-        animation: emoji-5 10s infinite 4s;
+        animation: emoji-5 10s infinite 4.1s;
     }
 
     &__cowboy-6{
@@ -54,7 +54,7 @@
 
     &__cowboy-7{
         
-        animation: emoji-7 10s infinite 6s;
+        animation: emoji-7 10s infinite 6.1s;
     }
 
     &__cowboy-8{
@@ -64,7 +64,7 @@
 
     &__cowboy-9{
         
-        animation: emoji-9 10s infinite 8s;
+        animation: emoji-9 10s infinite 8.1s;
     }
 
     &__cowboy-10{
@@ -99,27 +99,52 @@
 
     &__cowboy-16{
         
-        animation: emoji-10 10s infinite 5.5s;
+        animation: emoji-6 10s infinite .3s;
     }
 
     &__cowboy-17{
         
-        animation: emoji-10 10s infinite 6.5s;
+        animation: emoji-10 10s infinite 1.3s;
     }
 
     &__cowboy-18{
         
-        animation: emoji-10 10s infinite 7.5s;
+        animation: emoji-5 10s infinite 2.3s;
     }
 
     &__cowboy-19{
         
-        animation: emoji-10 10s infinite 8.5s;
+        animation: emoji-4 10s infinite 3.3s;
     }
 
     &__cowboy-20{
         
-        animation: emoji-10 10s infinite 9.5s;
+        animation: emoji-7 10s infinite 4.3s;
+    }
+
+    &__cowboy-21{
+        
+        animation: emoji-6 10s infinite 5.3s;
+    }
+
+    &__cowboy-22{
+        
+        animation: emoji-7 10s infinite 6.3s;
+    }
+
+    &__cowboy-23{
+        
+        animation: emoji-3 10s infinite 7.3s;
+    }
+
+    &__cowboy-24{
+        
+        animation: emoji-9 10s infinite 8.3s;
+    }
+
+    &__cowboy-25{
+        
+        animation: emoji-2 10s infinite 9.3s;
     }
 
     &__confetti{
@@ -133,7 +158,7 @@
     }
 
     &__confetti-2{
-        animation: emoji-9 10s infinite 1s; 
+        animation: emoji-9 10s infinite 1.1s; 
     }
 
     &__confetti-3{
@@ -141,7 +166,7 @@
     }
 
     &__confetti-4{
-        animation: emoji-7 10s infinite 3s; 
+        animation: emoji-7 10s infinite 3.1s; 
     }
     
     &__confetti-5{
@@ -149,7 +174,7 @@
     }
 
     &__confetti-6{
-        animation: emoji-5 10s infinite 5s; 
+        animation: emoji-5 10s infinite 5.1s; 
     }
 
     &__confetti-7{
@@ -157,7 +182,7 @@
     }
 
     &__confetti-8{
-        animation: emoji-3 10s infinite 7s; 
+        animation: emoji-3 10s infinite 7.1s; 
     }
 
     &__confetti-9{
@@ -165,7 +190,7 @@
     }
 
     &__confetti-10{
-        animation: emoji-1 10s infinite 9s; 
+        animation: emoji-1 10s infinite 9.1s; 
     }
 
     &__confetti-11{
@@ -189,23 +214,43 @@
     }
 
     &__confetti-16{
-        animation: emoji-1 10s infinite 5.5s; 
+        animation: emoji-9 10s infinite .3s; 
     }
 
     &__confetti-17{
-        animation: emoji-1 10s infinite 6.5s; 
+        animation: emoji-1 10s infinite 1.3s; 
     }
 
     &__confetti-18{
-        animation: emoji-1 10s infinite 7.5s; 
+        animation: emoji-3 10s infinite 2.3s; 
     }
 
     &__confetti-19{
-        animation: emoji-1 10s infinite 8.5s; 
+        animation: emoji-8 10s infinite 3.3s; 
     }
 
     &__confetti-20{
-        animation: emoji-1 10s infinite 9.5s; 
+        animation: emoji-2 10s infinite 4.3s; 
+    }
+
+    &__confetti-21{
+        animation: emoji-1 10s infinite 5.3s; 
+    }
+
+    &__confetti-22{
+        animation: emoji-5 10s infinite 6.3s; 
+    }
+
+    &__confetti-23{
+        animation: emoji-8 10s infinite 7.3s; 
+    }
+
+    &__confetti-24{
+        animation: emoji-4 10s infinite 8.3s; 
+    }
+
+    &__confetti-25{
+        animation: emoji-2 10s infinite 9.3s; 
     }
 
 }
