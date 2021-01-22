@@ -1,7 +1,7 @@
 .card-10 {
     background-color: rgb(243, 244, 246);
     grid-column: 1 / -1; 
-    height: 22rem;
+    height: 30rem;
 
     grid-template-columns: repeat(3,1fr) max-content repeat(3,1fr);
     grid-template-rows: repeat(5,1fr);
@@ -30,31 +30,28 @@
     }
 
     &__balloon {
-        //width: 10%;
+        // overflow: visible;
+        // z-index: 100;
+        width: 50%;
         opacity: 1;
 
         &.balloon-1{
-            width: 50%;
             grid-column: 2 / 3;
             grid-row: 2 / 3;
         }
         &.balloon-2{
-            width: 50%;
             grid-column: 3 / 4;
             grid-row: 3 / 4;
         }
         &.balloon-3{
-            width: 50%;
             grid-column: 1 / 2;
             grid-row: 4 / 5;
         }
         &.balloon-4{
-            width: 50%;
             grid-column: 5 / 6;
             grid-row: 4 / 5;
         }
         &.balloon-5{
-            width: 50%;
             grid-column: 6 / 7;
             grid-row: 2 / 3;
         }
