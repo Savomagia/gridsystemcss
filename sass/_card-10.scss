@@ -3,14 +3,44 @@
     grid-column: 1 / -1; 
     height: 22rem;
 
+    grid-template-columns: repeat(3,1fr) max-content repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+
     justify-items: center;
     align-items: center;
 
+    div {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+    }
+
     p {
         width: auto;
+        grid-row: 3 / 4;
+        grid-column: 4 / 5;
     }
 
     a {
         margin: 0 1rem;
     }
+
+    h1 {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+
+    &__balloon {
+        //width: 50%;
+        opacity: 1;
+        display: grid;
+        &.balloon-1{
+            width: 50%;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+    }
+    
+    
+    
+    
 }
