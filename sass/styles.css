@@ -766,8 +766,8 @@ p {
             transform: scale(1) translateY(0) rotate(0);
   }
   50% {
-    -webkit-transform: scale(2) translateY(-5rem) rotate(17.5deg);
-            transform: scale(2) translateY(-5rem) rotate(17.5deg);
+    -webkit-transform: scale(1.5) translateY(2rem) rotate(17.5deg);
+            transform: scale(1.5) translateY(2rem) rotate(17.5deg);
   }
   100% {
     -webkit-transform: scale(1) translateY(0) rotate(0);
@@ -781,8 +781,38 @@ p {
             transform: scale(1) translateY(0) rotate(0);
   }
   50% {
-    -webkit-transform: scale(2) translateY(-5rem) rotate(17.5deg);
-            transform: scale(2) translateY(-5rem) rotate(17.5deg);
+    -webkit-transform: scale(1.5) translateY(2rem) rotate(17.5deg);
+            transform: scale(1.5) translateY(2rem) rotate(17.5deg);
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+}
+
+@-webkit-keyframes bouncing-2 {
+  0% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+  50% {
+    -webkit-transform: scale(1.5) translateY(-2rem) rotate(-17.5deg);
+            transform: scale(1.5) translateY(-2rem) rotate(-17.5deg);
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+}
+
+@keyframes bouncing-2 {
+  0% {
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
+  }
+  50% {
+    -webkit-transform: scale(1.5) translateY(-2rem) rotate(-17.5deg);
+            transform: scale(1.5) translateY(-2rem) rotate(-17.5deg);
   }
   100% {
     -webkit-transform: scale(1) translateY(0) rotate(0);
@@ -1546,6 +1576,8 @@ p {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3 / 4;
+  -webkit-animation: bouncing-2 11s infinite;
+          animation: bouncing-2 11s infinite;
 }
 
 .card-10__balloon.balloon-3 {
@@ -1555,6 +1587,8 @@ p {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4 / 5;
+  -webkit-animation: bouncing-2 10s infinite;
+          animation: bouncing-2 10s infinite;
 }
 
 .card-10__balloon.balloon-4 {
