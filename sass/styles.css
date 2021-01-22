@@ -765,9 +765,13 @@ p {
     -webkit-transform: scale(1) translateY(0) rotate(0);
             transform: scale(1) translateY(0) rotate(0);
   }
+  50% {
+    -webkit-transform: scale(2) translateY(-5rem) rotate(17.5deg);
+            transform: scale(2) translateY(-5rem) rotate(17.5deg);
+  }
   100% {
-    -webkit-transform: scale(2) translateY(-5rem) rotate(-27.5deg);
-            transform: scale(2) translateY(-5rem) rotate(-27.5deg);
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
   }
 }
 
@@ -776,9 +780,13 @@ p {
     -webkit-transform: scale(1) translateY(0) rotate(0);
             transform: scale(1) translateY(0) rotate(0);
   }
+  50% {
+    -webkit-transform: scale(2) translateY(-5rem) rotate(17.5deg);
+            transform: scale(2) translateY(-5rem) rotate(17.5deg);
+  }
   100% {
-    -webkit-transform: scale(2) translateY(-5rem) rotate(-27.5deg);
-            transform: scale(2) translateY(-5rem) rotate(-27.5deg);
+    -webkit-transform: scale(1) translateY(0) rotate(0);
+            transform: scale(1) translateY(0) rotate(0);
   }
 }
 
@@ -1518,7 +1526,6 @@ p {
 
 .card-10__balloon {
   width: 50%;
-  opacity: 1;
 }
 
 .card-10__balloon.balloon-1 {
@@ -1528,6 +1535,8 @@ p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
+  -webkit-animation: bouncing-1 9s infinite;
+          animation: bouncing-1 9s infinite;
 }
 
 .card-10__balloon.balloon-2 {

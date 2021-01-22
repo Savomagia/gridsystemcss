@@ -33,11 +33,12 @@
         // overflow: visible;
         // z-index: 100;
         width: 50%;
-        opacity: 1;
+        
 
         &.balloon-1{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
+            animation: bouncing-1 9s infinite;
         }
         &.balloon-2{
             grid-column: 3 / 4;
