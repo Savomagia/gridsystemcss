@@ -48,6 +48,15 @@ span:not(:nth-of-type(1)) {
   }
 }
 
+@media only screen and (max-width: 56.25em) {
+  .container {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+}
+
 .card {
   display: -ms-grid;
   display: grid;
@@ -842,6 +851,19 @@ p {
   padding-left: 6rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-1 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+    justify-items: center;
+  }
+}
+
 .card-1 svg {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -930,6 +952,18 @@ p {
   justify-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-2 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
+}
+
 .card-2 h2 {
   line-height: 1;
   text-align: center;
@@ -1006,6 +1040,18 @@ p {
   justify-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-3 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
+}
+
 .card-3 p {
   text-align: center;
   -ms-flex-item-align: start;
@@ -1060,6 +1106,18 @@ p {
   justify-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-4 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
+}
+
 .card-4 p {
   text-align: center;
   -ms-flex-item-align: start;
@@ -1081,6 +1139,18 @@ p {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-5 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
 }
 
 .card-5 p {
@@ -1106,6 +1176,18 @@ p {
       grid-template-rows: 34rem 6rem 6rem;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-6 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
 }
 
 .card-6 img {
@@ -1404,6 +1486,18 @@ p {
   justify-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-7 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
+}
+
 .card-7 img {
   width: 100%;
   height: auto;
@@ -1429,6 +1523,18 @@ p {
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[5];
       grid-template-rows: repeat(5, 1fr);
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-8 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
 }
 
 .card-8 img {
@@ -1507,6 +1613,18 @@ p {
   justify-items: center;
   -ms-grid-rows: (minmax(1rem, 1fr))[5];
       grid-template-rows: repeat(5, minmax(1rem, 1fr));
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-9 {
+    padding: 0 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    grid-column: span 6 / auto;
+  }
 }
 
 .card-9 h1 {

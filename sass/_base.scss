@@ -6,7 +6,7 @@ $color-secondary: rgba(0, 0, 0, 0.5);
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 87.5em;   // 1400px
 $bp-large: 68.75em;   // 1110px
-$bp-medium: 50em;    // 800px;
+$bp-medium: 56.25em;    // 900px;
 $bp-small: 37.5em;    // 600px;
 
 *,
@@ -41,14 +41,19 @@ span:not(:nth-of-type(1)) {
 .container {
     display: grid;
     grid-template-columns: repeat(6, minmax(min-content, 1fr));
-    //grid-template-rows: repeat(10, min-content(6rem, 1fr));
     grid-template-rows: repeat(4, 46rem);
     gap: 3.2rem;    
     margin: 6rem 22rem;
 
     @media only screen and (max-width: $bp-largest) {
         margin: 3.2rem;
-    } 
+    }
+    
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        
+    }
 }
   
   .card {

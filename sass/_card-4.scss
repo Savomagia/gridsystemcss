@@ -7,6 +7,14 @@
     align-items: center;
     justify-items: center;
 
+    @media only screen and (max-width: $bp-medium) {
+        padding: 0 2.4rem;
+        flex-direction: column;
+        height: auto;
+        grid-column: span 6 / auto;
+    }
+
+
     p {
         text-align: center;
         align-self: start;

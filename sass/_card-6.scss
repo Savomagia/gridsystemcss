@@ -5,6 +5,14 @@
     grid-template-rows: 34rem 6rem 6rem;
     grid-template-columns: 100%;
 
+    @media only screen and (max-width: $bp-medium) {
+        padding: 0 2.4rem;
+        flex-direction: column;
+        height: auto;
+        grid-column: span 6 / auto;
+    }
+
+
     img {
         width: 90%;
         height: auto;

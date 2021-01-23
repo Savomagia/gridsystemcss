@@ -6,6 +6,13 @@
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 0 2.4rem;
+        flex-direction: column;
+        height: auto;
+        grid-column: span 6 / auto;
+    }
     
     h2 {
         
