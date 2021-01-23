@@ -1434,6 +1434,8 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .card-8-thunder {
@@ -1584,9 +1586,9 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4 / 5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
   -webkit-animation: bouncing-2 10s infinite;
           animation: bouncing-2 10s infinite;
 }
@@ -1595,11 +1597,13 @@ p {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-column: 5 / 6;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4 / 5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
   -webkit-animation: bouncing-2 12s infinite;
           animation: bouncing-2 12s infinite;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .card-10__balloon.balloon-5 {
@@ -1611,6 +1615,8 @@ p {
   grid-row: 2 / 3;
   -webkit-animation: bouncing-1 11s infinite;
           animation: bouncing-1 11s infinite;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .footer {
