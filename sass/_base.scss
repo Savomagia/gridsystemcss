@@ -5,7 +5,7 @@ $color-secondary: rgba(0, 0, 0, 0.5);
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 87.5em;   // 1400px
-$bp-large: 62.5em;   // 1000px
+$bp-large: 68.75em;   // 1110px
 $bp-medium: 50em;    // 800px;
 $bp-small: 37.5em;    // 600px;
 
@@ -21,7 +21,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
     
-    @media only screen and (max-width: $bp-largest) {
+    @media only screen and (max-width: $bp-large) {
         font-size: 50%;
     }
 }
@@ -45,8 +45,9 @@ span:not(:nth-of-type(1)) {
     grid-template-rows: repeat(4, 46rem);
     gap: 3.2rem;    
     margin: 6rem 22rem;
+
     @media only screen and (max-width: $bp-largest) {
-        margin-left: 6rem;
+        margin: 3.2rem;
     } 
 }
   
