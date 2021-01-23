@@ -1653,6 +1653,12 @@ p {
   margin-top: 3rem;
 }
 
+@media only screen and (max-width: 87.5em) {
+  .footer div {
+    margin-top: 0rem;
+  }
+}
+
 .footer a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
