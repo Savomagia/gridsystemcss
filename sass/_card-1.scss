@@ -14,6 +14,9 @@
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         transform: translate(-4.5rem, 2.2rem);    
+        @media only screen and (max-width: $bp-largest) {
+            transform: translate(-5.5rem, 2.8rem);
+        }
     }
 
     & h4 {
