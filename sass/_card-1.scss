@@ -13,8 +13,11 @@
     & svg {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        transform: translate(-4.5rem, 2.2rem);    
-       
+        transform: translate(-4.5rem, 2.2rem); 
+
+        @media only screen and (max-width: $bp-large) {
+            transform: translate(-5.8rem, 3rem);
+        }
     }
 
     & h4 {

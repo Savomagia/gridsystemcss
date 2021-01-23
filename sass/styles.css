@@ -853,6 +853,13 @@ p {
           transform: translate(-4.5rem, 2.2rem);
 }
 
+@media only screen and (max-width: 68.75em) {
+  .card-1 svg {
+    -webkit-transform: translate(-5.8rem, 3rem);
+            transform: translate(-5.8rem, 3rem);
+  }
+}
+
 .card-1 h4 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
