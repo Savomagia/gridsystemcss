@@ -888,7 +888,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 56.25em) {
   .card-1 svg {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -914,7 +914,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 56.25em) {
   .card-1 h4 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -931,7 +931,7 @@ p {
   grid-row: 2 / 3;
 }
 
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 56.25em) {
   .card-1 h1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -953,7 +953,7 @@ p {
   text-align: start;
 }
 
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 56.25em) {
   .card-1 p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -965,13 +965,18 @@ p {
 
 .card-1 video {
   grid-column: 2 / -1;
-  -ms-grid-column-align: auto;
-      justify-self: auto;
   -webkit-transform: translateY(25.3rem) translateX(4rem);
           transform: translateY(25.3rem) translateX(4rem);
 }
 
 @media only screen and (max-width: 68.75em) {
+  .card-1 video {
+    -webkit-transform: translateY(32rem) translateX(0rem);
+            transform: translateY(32rem) translateX(0rem);
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
   .card-1 video {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
