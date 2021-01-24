@@ -11,11 +11,13 @@
     padding-left: 6rem;
 
     @media only screen and (max-width: $bp-medium) {
+        
         padding: 0 2.4rem;
         flex-direction: column;
         height: auto;
         grid-column: span 6 / auto;
         justify-items: center;
+       
     }
 
     
@@ -28,6 +30,9 @@
         @media only screen and (max-width: $bp-large) {
             transform: translate(-5.8rem, 3rem);
         }
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+        }
     }
 
     & h4 {
@@ -38,12 +43,18 @@
         @media only screen and (max-width: $bp-large) {
             margin-left: 5rem;
         }
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+        }
         
     }
 
     & h1 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+        }
     }
     
     & p {
@@ -51,18 +62,32 @@
         grid-row: 3 / 4;
         width: 100%;
         text-align: start;
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+            width: 50%;
+        }
     }
 
     & video {
         grid-column: 2 / -1;
         justify-self: auto;
         transform: translateY(25.3rem) translateX(4rem);
+
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+            transform: translateY(0rem) translateX(0rem);;
+        }
     }
 
     a {
         grid-column: 1 / 2;
         grid-row: 5 / 6;
         align-self: flex-start;
+        @media only screen and (max-width: $bp-large) {
+            grid-column: 1 / 3;
+            align-self: center;
+
+        }
     }
 }
 
