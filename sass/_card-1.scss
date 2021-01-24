@@ -73,7 +73,7 @@
         @media only screen and (max-width: $bp-medium) {
             grid-column: 1 / 3;
             width: 50%;
-            margin-bottom: 3rem;
+            margin-bottom: 6rem;
         }
     }
 
@@ -88,7 +88,7 @@
 
         @media only screen and (max-width: $bp-medium) {
             grid-column: 1 / 3;
-            transform: translateY(0rem) translateX(0rem);
+            transform: translateY(16.8rem) translateX(0rem);
         }
     }
 
@@ -102,6 +102,10 @@
             grid-row: 4 / 5;
             align-self: center;
         }
+
+        // @media only screen and (max-width: $bp-medium) {
+        //     margin-bottom: -6rem;
+        // }
     }
 }
 
