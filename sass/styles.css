@@ -922,6 +922,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-1 h1 {
+    font-size: 4rem;
+  }
+}
+
 .card-1 p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -1757,6 +1763,12 @@ p {
       align-self: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-9 h1 {
+    font-size: 4rem;
+  }
+}
+
 .card-9 img {
   width: 100%;
   height: auto;
@@ -1789,6 +1801,13 @@ p {
           align-items: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-10 {
+    height: 26rem;
+    padding: 0 2.4rem;
+  }
+}
+
 .card-10 div {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
@@ -1799,13 +1818,19 @@ p {
 }
 
 .card-10 p {
-  width: auto;
+  width: 100%;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3 / 4;
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-10 p {
+    width: 75%;
+  }
 }
 
 .card-10 a {
@@ -1821,8 +1846,20 @@ p {
   grid-row: 2 / 3;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-10 h1 {
+    font-size: 4rem;
+  }
+}
+
 .card-10__balloon {
   width: 50%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-10__balloon {
+    width: 69%;
+  }
 }
 
 .card-10__balloon.balloon-1 {
@@ -1836,6 +1873,18 @@ p {
           animation: bouncing-1 9s infinite;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-10__balloon.balloon-1 {
+    width: 200%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .card-10__balloon.balloon-1 {
+    width: 0%;
+  }
+}
+
 .card-10__balloon.balloon-2 {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
@@ -1847,6 +1896,12 @@ p {
           animation: bouncing-2 8s infinite;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-10__balloon.balloon-2 {
+    width: 0%;
+  }
+}
+
 .card-10__balloon.balloon-3 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -1856,6 +1911,12 @@ p {
   grid-row: 3 / 5;
   -webkit-animation: bouncing-2 10s infinite;
           animation: bouncing-2 10s infinite;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-10__balloon.balloon-3 {
+    width: 0%;
+  }
 }
 
 .card-10__balloon.balloon-4 {
@@ -1871,6 +1932,12 @@ p {
       justify-self: end;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-10__balloon.balloon-4 {
+    width: 0%;
+  }
+}
+
 .card-10__balloon.balloon-5 {
   -ms-grid-column: 6;
   -ms-grid-column-span: 1;
@@ -1882,6 +1949,18 @@ p {
           animation: bouncing-1 11s infinite;
   -ms-grid-column-align: end;
       justify-self: end;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-10__balloon.balloon-5 {
+    width: 200%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .card-10__balloon.balloon-5 {
+    width: 0%;
+  }
 }
 
 .footer {
