@@ -26,6 +26,9 @@
         width: 80%;   
         grid-row: 2 / 5;
         grid-column: 2 / 9;
+        @media only screen and (max-width: $bp-medium) {
+            width: 70%;
+        }
     }
     
     &__dot {
@@ -36,6 +39,12 @@
         margin-left: 1rem;
         
         opacity: 0.420079;
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 3rem;
+            height: 3rem;
+        } 
+
             
     }
 

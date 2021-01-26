@@ -1057,6 +1057,12 @@ p {
   grid-column: 2 / 9;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .card-2 img {
+    width: 70%;
+  }
+}
+
 .card-2__dot {
   background: #99a5b2;
   width: 2rem;
@@ -1064,6 +1070,13 @@ p {
   border-radius: 50%;
   margin-left: 1rem;
   opacity: 0.420079;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-2__dot {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 .card-2__dot-1 {
