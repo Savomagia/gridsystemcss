@@ -1570,7 +1570,6 @@ p {
   .card-7 {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
-    margin-bottom: 2rem;
   }
 }
 
