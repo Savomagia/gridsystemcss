@@ -13,18 +13,6 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 68.75em) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media only screen and (max-width: 56.25em) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #989898;
@@ -77,11 +65,6 @@ h2,
 h4,
 a {
   color: #111111;
-}
-
-h1,
-h2 {
-  margin: 0 auto;
 }
 
 h1 {
@@ -1282,7 +1265,7 @@ p {
 }
 
 .card-6 h2 {
-  padding: 0 5rem;
+  padding: 0 2rem;
   line-height: 1;
   text-align: center;
   -ms-grid-row: 2;
@@ -1618,6 +1601,13 @@ p {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-8 {
+    -ms-grid-rows: (0.5fr)[5];
+        grid-template-rows: repeat(5, 0.5fr);
+  }
+}
+
 .card-8 img {
   height: auto;
 }
@@ -1678,6 +1668,14 @@ p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-8 h1 {
+    -ms-grid-rows: (0.5fr)[5];
+        grid-template-rows: repeat(5, 0.5fr);
+    font-size: 4rem;
+  }
 }
 
 .card-8 p {
