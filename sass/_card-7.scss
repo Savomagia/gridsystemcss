@@ -11,6 +11,10 @@
         grid-column: span 6 / auto;
     }
 
+    @media only screen and (max-width: $bp-small) {
+        grid-template-rows: 24rem 6rem 6rem;
+    }
+
 
     img {
         width: 100%;
