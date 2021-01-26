@@ -1562,14 +1562,20 @@ p {
 
 @media only screen and (max-width: 37.5em) {
   .card-7 {
-    -ms-grid-rows: 24rem 6rem 6rem;
-        grid-template-rows: 24rem 6rem 6rem;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    margin-bottom: 2rem;
   }
 }
 
 .card-7 img {
   width: 100%;
-  height: auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-7 img {
+    margin-bottom: 2rem;
+  }
 }
 
 .card-7 h2 {
@@ -1578,8 +1584,20 @@ p {
   text-align: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card-7 h2 {
+    margin-bottom: 1rem;
+  }
+}
+
 .card-7 p {
   text-align: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-7 p {
+    margin-bottom: 2rem;
+  }
 }
 
 .card-8 {
