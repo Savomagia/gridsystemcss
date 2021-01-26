@@ -2,10 +2,17 @@
     
     display: flex;
     justify-content: space-between;
-    
     grid-column: 1 / -1; 
+
+    @media only screen and (max-width: $bp-largest) {
+        justify-content: center;
+        max-width: 90%;
+        flex-wrap: wrap;
+    }
+    
     div {
        margin-top: 3rem;
+       
        @media only screen and (max-width: $bp-largest) {
         margin-top: 0rem;
     }

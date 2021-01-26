@@ -1869,6 +1869,17 @@ p {
   grid-column: 1 / -1;
 }
 
+@media only screen and (max-width: 87.5em) {
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .footer div {
   margin-top: 3rem;
 }
