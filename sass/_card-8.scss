@@ -14,36 +14,38 @@
     }
 
     @media only screen and (max-width: $bp-small) {
-        grid-template-rows: repeat(5, .5fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));
         
     }
 
 
     img {
-        height: auto;   
+        //height: auto;   
     }
 
-    &-claire {
-        position: relative;
     
-    }
-    
-    svg {
-        grid-row: 4 / 5;
-        grid-column: 1 / 2;
-    }
-
     &-phone {
         width: 150%;
         grid-row: 3 / -1;
         grid-column: 1 / 2;
         align-self: flex-end;
+
+        @media only screen and (max-width: $bp-small) {
+            width: 0%;
+        }
     }
 
     &-thunder {
         width: 45%;
         grid-row: 1 / 4;
         grid-column: 2 / span 2;
+
+        @media only screen and (max-width: $bp-small) {
+            width: 30%;
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
+        }
     }
 
     &-claire {
@@ -51,6 +53,9 @@
         grid-row: 4 / 5;
         grid-column: 1 / 2;
         justify-self: end;
+        @media only screen and (max-width: $bp-small) {
+            width: 0%;
+        }
     }
 
     h1 {
@@ -60,22 +65,25 @@
         grid-row: 4 / 5;
         grid-column: 2 / -1;
         align-self: center;
+
         @media only screen and (max-width: $bp-small) {
             grid-template-rows: repeat(5, .5fr);
             font-size: 4rem;
-            
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;   
         } 
     }
 
     p {
         grid-row: 5 / 6;
         grid-column: 2 / -1;
-        margin-left: 3rem;  
+        margin-left: 3rem; 
+
+        @media only screen and (max-width: $bp-small) {
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+            margin: 1rem 0rem;
+        } 
     }
 }
 
-
-//<svg width="80" height="80" style="position:absolute;top:164px;right:163px;z-index:2"><circle cx="40" cy="40" r="38" stroke="#1A88F8" stroke-width="4.43" fill="none" stroke-dashoffset="238.7" stroke-dasharray="238.761" style="transform: rotate(-90deg) translateZ(0px); transform-origin: 40px 40px;"></circle></svg>
-
-//0% opacity: 0; transform: scale(1)
-//100% opacity: 1: transform: scale(.8)
