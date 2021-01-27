@@ -1204,6 +1204,7 @@ p {
           animation: fromLeft 1.4s ease 1;
   position: relative;
   left: 0;
+  color: #ff4e4e;
 }
 
 .card-4 {
