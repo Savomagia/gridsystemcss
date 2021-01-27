@@ -1667,6 +1667,9 @@ p {
 @media only screen and (max-width: 37.5em) {
   .card-8-phone {
     width: 0%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
   }
 }
 
