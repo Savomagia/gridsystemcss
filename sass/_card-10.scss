@@ -29,11 +29,20 @@
 
         @media only screen and (max-width: $bp-small) {
             width: 75%;
+            margin-bottom: 2rem;
         }
     }
 
     a {
         margin: 0 1rem;
+
+        @media only screen and (max-width: $bp-small) {
+            display: block;
+            background-color: rgb(255, 255, 255);
+            border-radius: 99rem;
+            margin-bottom: 1rem;
+        }
+        
     }
 
     h1 {
@@ -42,6 +51,7 @@
 
         @media only screen and (max-width: $bp-small) {
             font-size: 4rem;
+            margin-bottom: 1rem;
         }
     }
 

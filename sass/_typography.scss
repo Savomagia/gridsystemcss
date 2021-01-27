@@ -3,7 +3,10 @@ h2,
 h4,
 a {
     color: $color-primary;
-    
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 1.4rem;
+    }
 }
 
 h1,
@@ -31,4 +34,7 @@ p {
     width: 75%;
     line-height: 1.2;
     text-align: center;
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 1.4rem;
+    }
 }

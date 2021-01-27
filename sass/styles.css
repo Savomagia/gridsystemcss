@@ -67,6 +67,15 @@ a {
   color: #111111;
 }
 
+@media only screen and (max-width: 31.25em) {
+  h1,
+  h2,
+  h4,
+  a {
+    font-size: 1.4rem;
+  }
+}
+
 h1 {
   font-size: 5.5rem;
   line-height: 1;
@@ -88,6 +97,12 @@ p {
   width: 75%;
   line-height: 1.2;
   text-align: center;
+}
+
+@media only screen and (max-width: 31.25em) {
+  p {
+    font-size: 1.4rem;
+  }
 }
 
 @-webkit-keyframes breathing {
@@ -1829,11 +1844,21 @@ p {
 @media only screen and (max-width: 37.5em) {
   .card-10 p {
     width: 75%;
+    margin-bottom: 2rem;
   }
 }
 
 .card-10 a {
   margin: 0 1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-10 a {
+    display: block;
+    background-color: white;
+    border-radius: 99rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .card-10 h1 {
@@ -1848,6 +1873,7 @@ p {
 @media only screen and (max-width: 37.5em) {
   .card-10 h1 {
     font-size: 4rem;
+    margin-bottom: 1rem;
   }
 }
 
