@@ -152,7 +152,7 @@ p {
     opacity: 0;
     left: 5rem;
   }
-  20% {
+  70% {
     opacity: 0;
     left: 5rem;
   }
@@ -171,7 +171,7 @@ p {
     opacity: 0;
     left: 5rem;
   }
-  20% {
+  70% {
     opacity: 0;
     left: 5rem;
   }
@@ -181,8 +181,50 @@ p {
   }
 }
 
+@-webkit-keyframes fromRightE {
+  0% {
+    opacity: 0;
+    left: 3rem;
+  }
+  10% {
+    opacity: 0;
+    left: 1rem;
+  }
+  70% {
+    opacity: 0;
+    left: 1rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fromRightE {
+  0% {
+    opacity: 0;
+    left: 3rem;
+  }
+  10% {
+    opacity: 0;
+    left: 1rem;
+  }
+  70% {
+    opacity: 0;
+    left: 1rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
 @-webkit-keyframes appear {
   0% {
+    opacity: 0;
+    left: 5rem;
+  }
+  70% {
     opacity: 0;
     left: 5rem;
   }
@@ -197,6 +239,10 @@ p {
     opacity: 0;
     left: 5rem;
   }
+  70% {
+    opacity: 0;
+    left: 5rem;
+  }
   100% {
     opacity: 1;
     left: 0;
@@ -208,13 +254,13 @@ p {
     opacity: 0;
     left: -9rem;
   }
-  10% {
-    opacity: 0;
-    left: -7rem;
+  65% {
+    opacity: 1;
+    left: -9rem;
   }
-  20% {
-    opacity: 0;
-    left: -3rem;
+  70% {
+    opacity: 1;
+    left: -5rem;
   }
   100% {
     opacity: 1;
@@ -227,13 +273,13 @@ p {
     opacity: 0;
     left: -9rem;
   }
-  10% {
-    opacity: 0;
-    left: -7rem;
+  65% {
+    opacity: 1;
+    left: -9rem;
   }
-  20% {
-    opacity: 0;
-    left: -3rem;
+  70% {
+    opacity: 1;
+    left: -5rem;
   }
   100% {
     opacity: 1;
@@ -1186,8 +1232,8 @@ p {
 }
 
 .card-3__h1-e {
-  -webkit-animation: fromRight 1.2s ease 1;
-          animation: fromRight 1.2s ease 1;
+  -webkit-animation: fromRightE 1.2s ease 1;
+          animation: fromRightE 1.2s ease 1;
   position: relative;
   left: 0;
 }

@@ -22,9 +22,28 @@
     opacity: 0;
     left: 5rem;
   }
-  20% {
+  70% {
     opacity: 0;
     left: 5rem;
+  }
+  100% {
+      opacity: 1;
+      left: 0;
+  }
+}
+
+@keyframes fromRightE {
+  0% {
+      opacity: 0;
+      left: 3rem;
+  }
+  10% {
+    opacity: 0;
+    left: 1rem;
+  }
+  70% {
+    opacity: 0;
+    left: 1rem;
   }
   100% {
       opacity: 1;
@@ -35,6 +54,10 @@
 @keyframes appear {
   0% {opacity: 0;
   left: 5rem;
+  }
+  70% {
+    opacity: 0;
+    left: 5rem;
   }
   100% {
     opacity: 1;
@@ -47,13 +70,14 @@
       opacity: 0;
       left: -9rem;
   }
-  10% {
-    opacity: 0;
-    left: -7rem;
+
+  65% {
+    opacity: 1;
+    left: -9rem;
   }
-  20% {
-    opacity: 0;
-    left: -3rem;
+  70% {
+    opacity: 1;
+    left: -5rem;
   }
   100% {
       opacity: 1;
@@ -130,7 +154,6 @@
     opacity: 1; 
     transform: translateX(-9rem) translateY(-60rem) scale(3.5) rotate(-79.4611deg);
   }
-  
   21%{opacity: 0;}
   100%{opacity: 0;}
 
