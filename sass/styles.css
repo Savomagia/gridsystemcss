@@ -1795,6 +1795,16 @@ p {
   grid-column: 1 / 2;
   -ms-grid-column-align: end;
       justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .card-8-claire {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
