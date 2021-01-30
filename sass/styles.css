@@ -1855,6 +1855,7 @@ p {
 
 .card-8-claire {
   width: 30%;
+  min-width: 7.39rem;
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4 / 5;
@@ -1868,6 +1869,35 @@ p {
       align-self: center;
   -webkit-animation: reduce 4s ease infinite;
           animation: reduce 4s ease infinite;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .card-8-claire {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    min-width: 5.7rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-8-claire {
+    min-width: 0;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  .card-8 .svg-container {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-8 .svg-container {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 
 .card-8__svg-loader {
@@ -1884,6 +1914,26 @@ p {
       align-self: center;
   -webkit-transform: translateY(0.2rem);
           transform: translateY(0.2rem);
+}
+
+@media only screen and (max-width: 68.75em) {
+  .card-8__svg-loader {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    -webkit-transform: translateY(0.65rem);
+            transform: translateY(0.65rem);
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .card-8__svg-loader {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-transform: translateY(0.2rem);
+            transform: translateY(0.2rem);
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
