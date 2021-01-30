@@ -2294,6 +2294,11 @@ p {
   font-size: 1.6rem;
 }
 
+.footer a:hover {
+  color: black;
+  background: #fafafa;
+}
+
 .footer p {
   width: 100%;
 }
