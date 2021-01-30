@@ -2299,6 +2299,32 @@ p {
   background: #fafafa;
 }
 
+.footer .foooter__links {
+  position: relative;
+}
+
+.footer .tooltip-press {
+  visibility: hidden;
+  width: 20rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: .6rem;
+  padding: .5rem 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 36%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.footer .footer__links-press:hover .tooltip-press {
+  visibility: visible;
+  opacity: 1;
+}
+
 .footer p {
   width: 100%;
 }

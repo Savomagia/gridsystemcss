@@ -22,7 +22,7 @@
     }
        
     }
-    
+
     a {
         text-decoration: none;
         color: $color-secondary;
@@ -33,6 +33,30 @@
     a:hover {
         color: rgb(0, 0, 0);
         background: rgb(250, 250, 250);
+    }
+
+    .foooter__links {
+        position: relative;
+    }
+    .tooltip-press {
+        visibility: hidden;
+        width: 20rem;
+        background-color:#000;
+        color: #fff;
+        text-align: center;
+        border-radius: .6rem;
+        padding: .5rem 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 36%;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .footer__links-press:hover .tooltip-press {
+        visibility: visible;
+        opacity: 1;
     }
 
     p {
