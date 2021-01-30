@@ -47,6 +47,7 @@
         grid-column: 1 / 2;
         justify-self: end;
         align-self: center;
+        animation: reduce 4s ease infinite;
 
         @media only screen and (max-width: $bp-large) {
             align-self: flex-end;
@@ -68,6 +69,8 @@
             stroke-width: 5px;
             stroke-linecap: round;
             stroke: rgb(26, 136, 248);
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
         }
 
         .animate{

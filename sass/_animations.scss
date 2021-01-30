@@ -320,16 +320,14 @@
 }
 
 @keyframes fillCircle {
-  0%{
-    stroke-dasharray: 0 282.6;
-    stroke-dashoffset: 0;
-  }
-  10%{
-    stroke-dasharray:  282.6;
-    stroke-dashoffset: 0;
-  }
-  100%{
-    stroke-dasharray:  282.6;
-    stroke-dashoffset: 0;
-  }
+  20% {stroke-dashoffset: 1000;}
+  40% {stroke-dashoffset: 0;}
+  60% {stroke-dashoffset: 0;}
+  80% {stroke-dashoffset: 1000;}
+}
+
+@keyframes reduce {
+  0% {transform: scale(1);}
+  10% {transform: scale(.8);}
+  100% {transform: scale(1);}
 }

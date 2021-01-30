@@ -930,32 +930,62 @@ p {
 }
 
 @-webkit-keyframes fillCircle {
-  0% {
-    stroke-dasharray: 0 282.6;
+  20% {
+    stroke-dashoffset: 1000;
+  }
+  40% {
     stroke-dashoffset: 0;
   }
-  10% {
-    stroke-dasharray: 282.6;
+  60% {
     stroke-dashoffset: 0;
   }
-  100% {
-    stroke-dasharray: 282.6;
-    stroke-dashoffset: 0;
+  80% {
+    stroke-dashoffset: 1000;
   }
 }
 
 @keyframes fillCircle {
-  0% {
-    stroke-dasharray: 0 282.6;
+  20% {
+    stroke-dashoffset: 1000;
+  }
+  40% {
     stroke-dashoffset: 0;
+  }
+  60% {
+    stroke-dashoffset: 0;
+  }
+  80% {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@-webkit-keyframes reduce {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   10% {
-    stroke-dasharray: 282.6;
-    stroke-dashoffset: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
   100% {
-    stroke-dasharray: 282.6;
-    stroke-dashoffset: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes reduce {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -1828,6 +1858,8 @@ p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -webkit-animation: reduce 4s ease infinite;
+          animation: reduce 4s ease infinite;
 }
 
 @media only screen and (max-width: 68.75em) {
@@ -1864,6 +1896,8 @@ p {
   stroke-width: 5px;
   stroke-linecap: round;
   stroke: #1a88f8;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
 }
 
 .card-8__svg-loader .animate {
