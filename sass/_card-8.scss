@@ -12,7 +12,7 @@
     }
 
     @media only screen and (max-width: $bp-small) {
-        grid-template-columns: 1fr;
+        grid-template-columns: 0 1fr 0;
         grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));   
     }
 
@@ -45,24 +45,25 @@
         width: 30%;
         grid-row: 4 / 5;
         grid-column: 1 / 2;
-        justify-self: end;
+        justify-self: center;
         align-self: center;
         animation: reduce 4s ease infinite;
 
-        @media only screen and (max-width: $bp-large) {
-            align-self: flex-end;
-        }
-        @media only screen and (max-width: $bp-small) {
-            width: 0%;
-        }
+        // @media only screen and (max-width: $bp-small) {
+        //     width: 0%;
+        // }
     }
 
     &__svg-loader {
         grid-row: 4 / 5;
         grid-column: 1 / 2;
-        justify-self: end;
+        justify-self: center;
         align-self: center;
-        transform: translate(0.65rem, .2rem);
+        transform: translateY(.2rem);
+
+        @media only screen and (max-width: $bp-small) {
+            transform: translateX(-52rem);
+        }
 
         .loader-svg {
             fill: none;

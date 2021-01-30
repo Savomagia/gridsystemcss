@@ -972,7 +972,7 @@ p {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
-  85% {
+  90% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -991,7 +991,7 @@ p {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
-  85% {
+  90% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -1805,8 +1805,8 @@ p {
 
 @media only screen and (max-width: 37.5em) {
   .card-8 {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 0 1fr 0;
+        grid-template-columns: 0 1fr 0;
     -ms-grid-rows: (minmax(8rem, 1fr))[auto-fit];
         grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));
   }
@@ -1861,26 +1861,13 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
-  -ms-grid-column-align: end;
-      justify-self: end;
+  -ms-grid-column-align: center;
+      justify-self: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   -webkit-animation: reduce 4s ease infinite;
           animation: reduce 4s ease infinite;
-}
-
-@media only screen and (max-width: 68.75em) {
-  .card-8-claire {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-  }
-}
-
-@media only screen and (max-width: 37.5em) {
-  .card-8-claire {
-    width: 0%;
-  }
 }
 
 .card-8__svg-loader {
@@ -1890,13 +1877,20 @@ p {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
-  -ms-grid-column-align: end;
-      justify-self: end;
+  -ms-grid-column-align: center;
+      justify-self: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-transform: translate(0.65rem, 0.2rem);
-          transform: translate(0.65rem, 0.2rem);
+  -webkit-transform: translateY(0.2rem);
+          transform: translateY(0.2rem);
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-8__svg-loader {
+    -webkit-transform: translateX(-52rem);
+            transform: translateX(-52rem);
+  }
 }
 
 .card-8__svg-loader .loader-svg {
