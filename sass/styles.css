@@ -960,30 +960,38 @@ p {
 }
 
 @-webkit-keyframes reduce {
-  0% {
+  20% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  10% {
+  35% {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
-  100% {
+  75% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  85% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
 }
 
 @keyframes reduce {
-  0% {
+  20% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  10% {
+  35% {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
-  100% {
+  75% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  85% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
