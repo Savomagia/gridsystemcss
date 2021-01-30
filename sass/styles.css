@@ -1813,6 +1813,22 @@ p {
   }
 }
 
+.card-8__svg-loader {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transform: translateX(0.8rem);
+          transform: translateX(0.8rem);
+}
+
 .card-8 h1 {
   padding: 0 5rem;
   line-height: 1;
