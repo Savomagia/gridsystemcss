@@ -1829,6 +1829,13 @@ p {
           transform: translateX(0.8rem);
 }
 
+.card-8__svg-loader .loader-svg {
+  fill: none;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke: #1a88f8;
+}
+
 .card-8 h1 {
   padding: 0 5rem;
   line-height: 1;

@@ -62,6 +62,12 @@
         justify-self: end;
         align-self: center;
         transform: translateX(.8rem);
+        .loader-svg {
+            fill: none;
+            stroke-width: 5px;
+            stroke-linecap: round;
+            stroke: rgb(26, 136, 248);
+        }
     }
 
     h1 {
