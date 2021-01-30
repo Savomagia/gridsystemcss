@@ -61,13 +61,18 @@
         grid-column: 1 / 2;
         justify-self: end;
         align-self: center;
-        transform: translateX(.8rem);
+        transform: translate(0.65rem, .2rem);
+
         .loader-svg {
             fill: none;
             stroke-width: 5px;
             stroke-linecap: round;
             stroke: rgb(26, 136, 248);
         }
+
+        .animate{
+            animation: fillCircle 4s cubic-bezier(1,1,1,1) 0s infinite;
+          }
     }
 
     h1 {

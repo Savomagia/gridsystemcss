@@ -929,6 +929,36 @@ p {
   }
 }
 
+@-webkit-keyframes fillCircle {
+  0% {
+    stroke-dasharray: 0 282.6;
+    stroke-dashoffset: 0;
+  }
+  10% {
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillCircle {
+  0% {
+    stroke-dasharray: 0 282.6;
+    stroke-dashoffset: 0;
+  }
+  10% {
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 0;
+  }
+}
+
 .card-1 {
   background-color: #C0E5FE;
   -ms-grid-column: 1;
@@ -1825,8 +1855,8 @@ p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-transform: translateX(0.8rem);
-          transform: translateX(0.8rem);
+  -webkit-transform: translate(0.65rem, 0.2rem);
+          transform: translate(0.65rem, 0.2rem);
 }
 
 .card-8__svg-loader .loader-svg {
@@ -1834,6 +1864,11 @@ p {
   stroke-width: 5px;
   stroke-linecap: round;
   stroke: #1a88f8;
+}
+
+.card-8__svg-loader .animate {
+  -webkit-animation: fillCircle 4s cubic-bezier(1, 1, 1, 1) 0s infinite;
+          animation: fillCircle 4s cubic-bezier(1, 1, 1, 1) 0s infinite;
 }
 
 .card-8 h1 {

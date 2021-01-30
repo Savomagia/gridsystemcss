@@ -318,3 +318,18 @@
   50%{transform: scale(1.5) translateY(-2rem) rotate(-17.5deg)}
   100%{transform: scale(1) translateY(0) rotate(0)}
 }
+
+@keyframes fillCircle {
+  0%{
+    stroke-dasharray: 0 282.6;
+    stroke-dashoffset: 0;
+  }
+  10%{
+    stroke-dasharray:  282.6;
+    stroke-dashoffset: 0;
+  }
+  100%{
+    stroke-dasharray:  282.6;
+    stroke-dashoffset: 0;
+  }
+}
