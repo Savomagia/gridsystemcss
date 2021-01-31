@@ -2082,9 +2082,14 @@ p {
           align-items: center;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 68.75em) {
   .card-10 {
     height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .card-10 {
     padding: 0 2.4rem;
   }
 }
