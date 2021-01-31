@@ -1425,6 +1425,12 @@ p {
           animation: shakeIt 5s cubic-bezier(0.03, 1.24, 0.91, 0.99) infinite;
 }
 
+@media only screen and (max-width: 21.875em) {
+  .card-5 img {
+    width: 40%;
+  }
+}
+
 .card-6 {
   background-color: #bbf5d5;
   -ms-grid-column: 1;

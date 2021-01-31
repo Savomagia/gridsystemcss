@@ -21,5 +21,8 @@
     img {
         transform-origin: bottom;
         animation: shakeIt 5s cubic-bezier(.03,1.24,.91,.99) infinite;
+        @media only screen and (max-width: $bp-micro) {
+            width: 40%;
+        }
     }
 }
