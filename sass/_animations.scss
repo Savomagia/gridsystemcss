@@ -99,8 +99,7 @@
     opacity: 1;   
   }
   100% {
-    opacity: 0;
-    
+    opacity: 0;  
   }
 }
 
@@ -127,28 +126,27 @@
 
 @keyframes shakeIt {
   
-  74% {
+  73% {
     transform: scale(1) translateY(0) rotate(0);
   }
   75% {
     transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
-  80% {
+  77% {
     transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
+  79% {
+    transform: scale(1.1) translateY(-.3rem) rotate(-7.5deg);
+  }
+  81% {
+    transform: scale(1.1) translateY(-.3rem) rotate(7.5deg);
+  }
+  83% {
+    transform: scale(1.1) translateY(-.3rem) rotate(-7.5deg);
+  }
   85% {
-    transform: scale(1.2) translateY(-.5rem) rotate(-7.5deg);
+    transform: scale(1.1) translateY(-.3rem) rotate(7.5deg);
   }
-  90% {
-    transform: scale(1.2) translateY(-.5rem) rotate(7.5deg);
-  }
-  95% {
-    transform: scale(1.1) translateY(-.5rem) rotate(-7.5deg);
-  }
-  100% {
-    transform: scale(1.1) translateY(-.5rem) rotate(7.5deg);
-  }
-
 }
 
 
@@ -161,7 +159,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-2 {
@@ -175,7 +172,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-3 {
@@ -190,7 +186,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-4 {
@@ -205,7 +200,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-5 {
@@ -220,7 +214,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-6 {
@@ -235,7 +228,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-7 {
@@ -250,7 +242,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-8 {
@@ -265,7 +256,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-9 {
@@ -280,7 +270,6 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
 
 @keyframes emoji-10 {
@@ -295,18 +284,7 @@
   }
   21%{opacity: 0;}
   100%{opacity: 0;}
-
 }
-
-//--- Groups ---\\
-// /*  Group A:  Cowboy-1-2-3
-//               Confetti-6-7
-//     Group B:  Cowboy-4-5         delay 1s
-//               Confetti-8-9-10
-//     Group C:  Cowboy-6-7-8       delay 2s
-//               Confetti-1-2-3 
-//     Group D:  Cowboy-9-10        delay 3s
-//               Confetti-4-5-6 *\ 
 
 @keyframes bouncing-1 {
   0%{transform: scale(1) translateY(0) rotate(0)}

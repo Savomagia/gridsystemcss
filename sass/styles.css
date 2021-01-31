@@ -372,7 +372,7 @@ p {
 }
 
 @-webkit-keyframes shakeIt {
-  74% {
+  73% {
     -webkit-transform: scale(1) translateY(0) rotate(0);
             transform: scale(1) translateY(0) rotate(0);
   }
@@ -380,30 +380,30 @@ p {
     -webkit-transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
             transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
-  80% {
+  77% {
     -webkit-transform: scale(1.1) translateY(0rem) rotate(7.5deg);
             transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
+  79% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+  }
+  81% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+  }
+  83% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+  }
   85% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-  }
-  90% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-  }
-  95% {
-    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
-  }
-  100% {
-    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
   }
 }
 
 @keyframes shakeIt {
-  74% {
+  73% {
     -webkit-transform: scale(1) translateY(0) rotate(0);
             transform: scale(1) translateY(0) rotate(0);
   }
@@ -411,25 +411,25 @@ p {
     -webkit-transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
             transform: scale(1.1) translateY(0rem) rotate(-7.5deg);
   }
-  80% {
+  77% {
     -webkit-transform: scale(1.1) translateY(0rem) rotate(7.5deg);
             transform: scale(1.1) translateY(0rem) rotate(7.5deg);
   }
+  79% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+  }
+  81% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+  }
+  83% {
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(-7.5deg);
+  }
   85% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(-7.5deg);
-  }
-  90% {
-    -webkit-transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.2) translateY(-0.5rem) rotate(7.5deg);
-  }
-  95% {
-    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
-            transform: scale(1.1) translateY(-0.5rem) rotate(-7.5deg);
-  }
-  100% {
-    -webkit-transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
-            transform: scale(1.1) translateY(-0.5rem) rotate(7.5deg);
+    -webkit-transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
+            transform: scale(1.1) translateY(-0.3rem) rotate(7.5deg);
   }
 }
 
