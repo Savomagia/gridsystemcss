@@ -249,44 +249,6 @@ p {
   }
 }
 
-@-webkit-keyframes fromLeft {
-  0% {
-    opacity: 0;
-    left: -9rem;
-  }
-  65% {
-    opacity: 1;
-    left: -9rem;
-  }
-  70% {
-    opacity: 1;
-    left: -5rem;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-@keyframes fromLeft {
-  0% {
-    opacity: 0;
-    left: -9rem;
-  }
-  65% {
-    opacity: 1;
-    left: -9rem;
-  }
-  70% {
-    opacity: 1;
-    left: -5rem;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-
 @-webkit-keyframes onoff {
   0% {
     opacity: 0;
@@ -1350,11 +1312,11 @@ p {
 }
 
 .card-3__h1-1 {
-  -webkit-animation: fromLeft 1.4s ease 1;
-          animation: fromLeft 1.4s ease 1;
   position: relative;
   left: 0;
   color: #ff4e4e;
+  -webkit-animation: fromLeft 1.4s ease 1, onoff ease 1.4s infinite;
+          animation: fromLeft 1.4s ease 1, onoff ease 1.4s infinite;
 }
 
 .card-4 {
