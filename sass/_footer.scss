@@ -6,11 +6,13 @@
 
     @media only screen and (max-width: $bp-medium) {
         justify-content: center;
-        max-width: 90%;
+        max-width: 85%;
         flex-wrap: wrap;
+        margin: 0 auto;
+        
         .footer__legal {
             order: 1;
-            margin-top: 1rem;
+    
         }
     }
     
