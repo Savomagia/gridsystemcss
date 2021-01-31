@@ -2303,10 +2303,9 @@ p {
   position: relative;
 }
 
-.footer .tooltip-press {
+.footer .tooltip {
   visibility: hidden;
   width: 18rem;
-  background-color: #000;
   color: #fff;
   text-align: center;
   border-radius: .6rem;
@@ -2314,13 +2313,27 @@ p {
   position: absolute;
   z-index: 1;
   bottom: 100%;
-  left: 36%;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
+.footer .tooltip-press {
+  background-color: #000;
+  left: 48%;
+}
+
 .footer .footer__links-press:hover .tooltip-press {
+  visibility: visible;
+  opacity: 1;
+}
+
+.footer .tooltip-status {
+  background-color: #00acee;
+  left: 60%;
+}
+
+.footer .footer__links-status:hover .tooltip-status {
   visibility: visible;
   opacity: 1;
 }
