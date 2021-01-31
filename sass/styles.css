@@ -1813,8 +1813,7 @@ p {
   .card-8 {
     -ms-grid-columns: 0 1fr 0;
         grid-template-columns: 0 1fr 0;
-    -ms-grid-rows: (minmax(8rem, 1fr))[auto-fit];
-        grid-template-rows: repeat(auto-fit, minmax(8rem, 1fr));
+    max-height: 30rem;
   }
 }
 
@@ -1990,9 +1989,9 @@ p {
     -ms-grid-rows: (0.5fr)[5];
         grid-template-rows: repeat(5, 0.5fr);
     font-size: 4rem;
-    -ms-grid-row: 2;
+    -ms-grid-row: 3;
     -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
@@ -2012,9 +2011,9 @@ p {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
-    -ms-grid-row: 3;
+    -ms-grid-row: 4;
     -ms-grid-row-span: 1;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     margin: 1rem 0rem;
   }
 }
