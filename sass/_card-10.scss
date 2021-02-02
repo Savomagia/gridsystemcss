@@ -6,6 +6,9 @@
     grid-template-columns: repeat(3,1fr) max-content repeat(3,1fr);
     grid-template-rows: repeat(5,1fr);
 
+    justify-items: center;
+    align-items: center;
+
     @media only screen and (max-width: $bp-large) {
         height: 26rem;
     }
@@ -13,9 +16,6 @@
     @media only screen and (max-width: $bp-small) {
         padding: 0 2.4rem;
     }
-
-    justify-items: center;
-    align-items: center;
 
     div {
         grid-column: 4 / 5;
@@ -41,8 +41,7 @@
             background-color: rgb(255, 255, 255);
             border-radius: 99rem;
             margin-bottom: 1rem;
-        }
-        
+        }   
     }
 
     h1 {
@@ -56,17 +55,12 @@
     }
 
     &__balloon {
-        // overflow: visible;
-        // z-index: 100;
         width: 50%;
-        // background-size: cover;
-        // backface-visibility: visible;
+    
         @media only screen and (max-width: $bp-medium) {
             width: 69%;
         }
 
-        
-        
         &.balloon-1{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
@@ -126,9 +120,5 @@
                 width: 0%;
             }
         }
-    }
-    
-    
-    
-    
+    }   
 }
