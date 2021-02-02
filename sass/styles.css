@@ -2333,16 +2333,12 @@ p {
   left: 48%;
 }
 
-.footer .footer__links-press:hover .tooltip-press {
-  visibility: visible;
-  opacity: 1;
-}
-
 .footer .tooltip-status {
   background-color: #00acee;
   left: 60%;
 }
 
+.footer .footer__links-press:hover .tooltip-press,
 .footer .footer__links-status:hover .tooltip-status {
   visibility: visible;
   opacity: 1;

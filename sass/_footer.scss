@@ -20,8 +20,7 @@
        
        @media only screen and (max-width: $bp-largest) {
         margin-top: 0rem;
-    }
-       
+        }  
     }
 
     a {
@@ -39,6 +38,7 @@
     .foooter__links {
         position: relative;
     }
+
     .tooltip {
         visibility: hidden;
         width: 18rem;
@@ -58,16 +58,12 @@
         left: 48%;
     }
 
-    .footer__links-press:hover .tooltip-press {
-        visibility: visible;
-        opacity: 1;
-    }
-
     .tooltip-status {
         background-color:#00acee;
         left: 60%;
     }
 
+    .footer__links-press:hover .tooltip-press,
     .footer__links-status:hover .tooltip-status {
         visibility: visible;
         opacity: 1;
