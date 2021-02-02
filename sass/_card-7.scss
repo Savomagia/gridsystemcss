@@ -13,7 +13,6 @@
         grid-template-rows: auto;
     }
 
-
     img {
         width: 100%;
         @media only screen and (max-width: $bp-small) {
@@ -36,6 +35,5 @@
         @media only screen and (max-width: $bp-small) {
             margin-bottom: 2rem;
         }  
-    }
-    
+    } 
 }
